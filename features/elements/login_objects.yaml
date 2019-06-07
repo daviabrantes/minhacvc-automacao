@@ -1,0 +1,8 @@
+android:
+  button_entrar:              'buttonSignIn'
+  button_cadastro:            'buttonSignUp'
+  button_continuar_sem_login: 'btnEnterNoLogin'
+
+ios:
+  button_entrar:          '//xpath/do/elemento'
+

@@ -1,12 +1,15 @@
 require 'pry'
 require 'appium_lib'
-require 'appium_lib'
 require 'cucumber'
 require 'selenium-webdriver'
 require 'allure-cucumber'
 
 class AppiumWorld
 end
+
+time  = Time.new
+time = time.strftime('%d-%m-%Y')
+$logger = Logger.new("./exec-logs/exec-log-#{time}.log")
 
 if ENV['PLATFORM'].nil?
     raise 'Voce tem que definir se é iOS ou Android'
@@ -21,7 +24,7 @@ case env
                 deviceName: "MinhaCVC",
                 platformName: "Android",
                 app: (File.join(File.dirname(__FILE__), "app-prd.apk")),
-                appPackage: "com.cvc.minhacvc.mock",
+                appPackage: "com.cvc.minhacvc",
                 appActivity: "com.cvc.minhacvc.launch.LaunchActivity",
                 language: "pt",
                 locale: "BR",
@@ -47,12 +50,12 @@ case env
         raise("Acho que #{ENV} não é uma plataforma mobile")
 end
   
-    Appium::Driver.new(caps, true)
-    Appium.promote_appium_methods Object
-  
-    World do
-      AppiumWorld.new
-    end
+Appium::Driver.new(caps, true)
+Appium.promote_appium_methods Object
+
+World do
+    AppiumWorld.new
+end
   
 
   
