@@ -2,6 +2,13 @@ android:
   button_entrar:              'buttonSignIn'
   button_cadastro:            'buttonSignUp'
   button_continuar_sem_login: 'btnEnterNoLogin'
+  button_fechar:              'buttonLoginClose'
+  button_entrar:              'buttonSignIn'
+  button_ver_password:        'text_input_password_toggle'
+  text_email:                 'emailEditText'
+  text_senha:                 'editTextPassword'
+  link_esqueci_senha:         'textViewResetPassword'
+  link_cadastro:              'textViewSignUp'
 
 ios:
   button_entrar:          '//xpath/do/elemento'

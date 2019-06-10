@@ -1,0 +1,150 @@
+# Logfile created on 2019-06-10 11:39:48 -0300 by logger.rb/66358
+I, [2019-06-10T11:39:54.411553 #2438]  INFO -- : Fim do Teste!
+I, [2019-06-10T11:44:25.722847 #2736]  INFO -- : Fim do Teste!
+I, [2019-06-10T11:45:46.882300 #2823]  INFO -- : Fim do Teste!
+I, [2019-06-10T11:47:47.853438 #2925]  INFO -- : Fim do Teste!
+I, [2019-06-10T11:53:50.325109 #3215]  INFO -- : Fim do Teste!
+I, [2019-06-10T11:54:14.576439 #3268]  INFO -- : Fim do Teste!
+I, [2019-06-10T13:43:44.607689 #4790]  INFO -- : Fim do Teste!
+I, [2019-06-10T13:53:03.598465 #5167]  INFO -- : Fim do Teste!
+I, [2019-06-10T13:56:06.258195 #5299]  INFO -- : Fim do Teste!
+I, [2019-06-10T14:01:15.063243 #5570]  INFO -- : Fim do Teste!
+I, [2019-06-10T14:05:05.271009 #5772]  INFO -- : Fim do Teste!
+I, [2019-06-10T14:17:18.874752 #5998]  INFO -- : Fim do Teste!
+I, [2019-06-10T14:21:37.574973 #6154]  INFO -- : Fim do Teste!
+I, [2019-06-10T14:24:21.647403 #6277]  INFO -- : Início do teste...
+I, [2019-06-10T14:24:22.537681 #6277]  INFO -- : Fim do Teste!
+I, [2019-06-10T14:35:14.942820 #6561]  INFO -- : Início do teste...
+I, [2019-06-10T14:35:15.817155 #6561]  INFO -- : Fim do Teste!
+I, [2019-06-10T14:50:45.572857 #7110]  INFO -- : Início do teste...
+I, [2019-06-10T14:50:46.541447 #7110]  INFO -- : Fim do Teste!
+I, [2019-06-10T14:53:47.692961 #7256]  INFO -- : Início do teste...
+I, [2019-06-10T14:53:48.614280 #7256]  INFO -- : Fim do Teste!
+I, [2019-06-10T15:02:57.604378 #7563]  INFO -- : Início do teste...
+I, [2019-06-10T15:02:58.607212 #7563]  INFO -- : Fim do Teste!
+I, [2019-06-10T15:03:42.607908 #7649]  INFO -- : Início do teste...
+I, [2019-06-10T15:03:43.502420 #7649]  INFO -- : Fim do Teste!
+I, [2019-06-10T15:04:00.168432 #7708]  INFO -- : Início do teste...
+I, [2019-06-10T15:04:01.068624 #7708]  INFO -- : Fim do Teste!
+I, [2019-06-10T15:16:37.738524 #8085]  INFO -- : Fim do Teste!
+I, [2019-06-10T15:20:29.697997 #8212]  INFO -- : Início do teste...
+I, [2019-06-10T15:20:49.763032 #8212]  INFO -- : Fim do Teste!
+I, [2019-06-10T15:21:04.796847 #8286]  INFO -- : Fim do Teste!
+I, [2019-06-10T15:21:23.894295 #8339]  INFO -- : Início do teste...
+I, [2019-06-10T15:28:35.421902 #8339]  INFO -- : Fim do Teste!
+I, [2019-06-10T15:28:42.327276 #8515]  INFO -- : Fim do Teste!
+I, [2019-06-10T15:31:49.366458 #8589]  INFO -- : Fim do Teste!
+I, [2019-06-10T16:20:08.831870 #8708]  INFO -- : Início do teste...
+I, [2019-06-10T16:20:10.731995 #8708]  INFO -- : Fim do Teste!
+I, [2019-06-10T16:20:29.153575 #9461]  INFO -- : Início do teste...
+I, [2019-06-10T16:20:37.071800 #9461]  INFO -- : Fim do Teste!
+I, [2019-06-10T16:21:29.067627 #9532]  INFO -- : Início do teste...
+I, [2019-06-10T16:22:49.673274 #9532]  INFO -- : Fim do Teste!
+I, [2019-06-10T16:22:56.512444 #9623]  INFO -- : Fim do Teste!
+I, [2019-06-10T16:23:13.874772 #9675]  INFO -- : Fim do Teste!
+I, [2019-06-10T16:48:09.447031 #10116]  INFO -- : Início do teste...
+I, [2019-06-10T16:48:14.341020 #10116]  INFO -- : Fim do Teste!
+I, [2019-06-10T16:48:21.181450 #10159]  INFO -- : Início do teste...
+I, [2019-06-10T16:49:05.810524 #10159]  INFO -- : Fim do Teste!
+I, [2019-06-10T16:49:11.029748 #10224]  INFO -- : Início do teste...
+I, [2019-06-10T16:49:27.727081 #10224]  INFO -- : Fim do Teste!
+I, [2019-06-10T16:52:17.074460 #10358]  INFO -- : Início do teste...
+I, [2019-06-10T16:52:24.397047 #10358]  INFO -- : Fim do Teste!
+I, [2019-06-10T16:54:10.845217 #10471]  INFO -- : Início do teste...
+I, [2019-06-10T16:54:13.997339 #10471]  INFO -- : Fim do Teste!
+I, [2019-06-10T16:54:52.761568 #10551]  INFO -- : Início do teste...
+I, [2019-06-10T16:54:59.304643 #10551]  INFO -- : Fim do Teste!
+I, [2019-06-10T16:59:34.564295 #10751]  INFO -- : Início do teste...
+I, [2019-06-10T16:59:39.386932 #10751]  INFO -- : Fim do Teste!
+I, [2019-06-10T17:09:35.656855 #11179]  INFO -- : Início do teste...
+I, [2019-06-10T17:09:38.787851 #11179]  INFO -- : Fim do Teste!
+I, [2019-06-10T17:11:30.417930 #11287]  INFO -- : Início do teste...
+I, [2019-06-10T17:12:40.212503 #11287]  INFO -- : Fim do Teste!
+I, [2019-06-10T17:13:44.016752 #11397]  INFO -- : Início do teste...
+I, [2019-06-10T17:13:50.978721 #11397]  INFO -- : Fim do Teste!
+I, [2019-06-10T17:14:27.719431 #11474]  INFO -- : Início do teste...
+I, [2019-06-10T17:14:31.230138 #11474]  INFO -- : Fim do Teste!
+I, [2019-06-10T17:17:53.504918 #11666]  INFO -- : Início do teste...
+I, [2019-06-10T17:17:54.507442 #11666]  INFO -- : Fim do Teste!
+I, [2019-06-10T17:20:48.581985 #11797]  INFO -- : Início do teste...
+I, [2019-06-10T17:21:18.489711 #11797]  INFO -- : Fim do Teste!
+I, [2019-06-10T17:23:56.075227 #11960]  INFO -- : Início do teste...
+I, [2019-06-10T17:24:15.319604 #11960]  INFO -- : nil
+I, [2019-06-10T17:32:39.084358 #11960]  INFO -- : Fim do Teste!
+I, [2019-06-10T17:32:45.214903 #12335]  INFO -- : Início do teste...
+I, [2019-06-10T17:32:46.335500 #12335]  INFO -- : Fim do Teste!
+I, [2019-06-10T17:33:08.124207 #12379]  INFO -- : Início do teste...
+I, [2019-06-10T17:33:09.244124 #12379]  INFO -- : Fim do Teste!
+I, [2019-06-10T17:34:59.301615 #12512]  INFO -- : Início do teste...
+I, [2019-06-10T17:34:59.302962 #12512]  INFO -- : Verificando se existe o elemento  usando o tipo de busca 
+I, [2019-06-10T17:35:00.345416 #12512]  INFO -- : Fim do Teste!
+I, [2019-06-10T17:35:23.427671 #12573]  INFO -- : Início do teste...
+I, [2019-06-10T17:35:23.428416 #12573]  INFO -- : Verificando se existe o elemento  usando o tipo de busca 
+I, [2019-06-10T17:35:24.431308 #12573]  INFO -- : Fim do Teste!
+I, [2019-06-10T17:35:48.124906 #12633]  INFO -- : Início do teste...
+I, [2019-06-10T17:37:21.002539 #12633]  INFO -- : Fim do Teste!
+I, [2019-06-10T17:37:27.231061 #12753]  INFO -- : Início do teste...
+I, [2019-06-10T17:37:31.495262 #12753]  INFO -- : Verificando se existe o elemento  usando o tipo de busca 
+I, [2019-06-10T17:37:32.530989 #12753]  INFO -- : Fim do Teste!
+I, [2019-06-10T17:40:05.295286 #12889]  INFO -- : Início do teste...
+I, [2019-06-10T17:40:10.247393 #12889]  INFO -- : Verificando se existe o elemento buttonSignIn usando o tipo de busca buttonSignIn
+I, [2019-06-10T17:40:10.328021 #12889]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-10T17:40:10.752405 #12889]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-10T17:40:11.894954 #12889]  INFO -- : Fim do Teste!
+I, [2019-06-10T17:52:52.571857 #13389]  INFO -- : Início do teste...
+I, [2019-06-10T17:52:56.367974 #13389]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-10T17:52:56.448138 #13389]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-10T17:52:56.904844 #13389]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-10T17:52:58.033882 #13389]  INFO -- : Fim do Teste!
+I, [2019-06-10T17:55:58.358563 #13557]  INFO -- : Início do teste...
+I, [2019-06-10T17:56:03.644505 #13557]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-10T17:56:03.694632 #13557]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-10T17:56:04.103740 #13557]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-10T17:56:05.381920 #13557]  INFO -- : Fim do Teste!
+I, [2019-06-10T17:56:38.690559 #13627]  INFO -- : Início do teste...
+I, [2019-06-10T17:56:41.878575 #13627]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-10T17:56:41.950384 #13627]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-10T17:56:42.434925 #13627]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-10T17:56:43.619845 #13627]  INFO -- : Fim do Teste!
+I, [2019-06-10T17:57:18.201151 #13699]  INFO -- : Início do teste...
+I, [2019-06-10T17:57:20.375248 #13699]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-10T17:57:20.440152 #13699]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-10T17:57:20.926267 #13699]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-10T17:57:27.350939 #13699]  INFO -- : Preencheu o campo emailEditText com o valor ["teste"]
+I, [2019-06-10T17:57:28.438157 #13699]  INFO -- : Fim do Teste!
+I, [2019-06-10T18:00:02.153591 #13824]  INFO -- : Início do teste...
+I, [2019-06-10T18:00:03.562669 #13824]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-10T18:00:03.792265 #13824]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-10T18:00:04.230764 #13824]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-10T18:00:10.940729 #13824]  INFO -- : Preencheu o campo emailEditText com o valor ["teste"]
+I, [2019-06-10T18:00:16.576125 #13824]  INFO -- : Preencheu o campo editTextPassword com o valor ["teste"]
+I, [2019-06-10T18:00:19.557845 #13824]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-10T18:00:19.674365 #13824]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-10T18:00:22.813212 #13824]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-10T18:00:24.249836 #13824]  INFO -- : Fim do Teste!
+I, [2019-06-10T18:01:58.438739 #13920]  INFO -- : Início do teste...
+I, [2019-06-10T18:01:58.441880 #13920]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-10T18:01:59.951752 #13920]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-10T18:02:00.357133 #13920]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-10T18:02:01.542882 #13920]  INFO -- : Fim do Teste!
+I, [2019-06-10T18:04:40.916567 #14056]  INFO -- : Início do teste...
+I, [2019-06-10T18:04:40.917732 #14056]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-10T18:04:42.563599 #14056]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-10T18:04:42.624882 #14056]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-10T18:04:43.057133 #14056]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-10T18:04:49.799810 #14056]  INFO -- : Preencheu o campo emailEditText com o valor ["teste"]
+I, [2019-06-10T18:04:55.380688 #14056]  INFO -- : Preencheu o campo editTextPassword com o valor ["teste"]
+I, [2019-06-10T18:04:55.380782 #14056]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-10T18:04:55.499413 #14056]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-10T18:04:58.642128 #14056]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-10T18:04:59.695282 #14056]  INFO -- : Fim do Teste!
+I, [2019-06-10T18:09:29.040729 #14351]  INFO -- : Início do teste...
+I, [2019-06-10T18:09:29.042508 #14351]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-10T18:09:30.574766 #14351]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-10T18:09:30.992844 #14351]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-10T18:09:37.175957 #14351]  INFO -- : Preencheu o campo emailEditText com o valor ["teste"]
+I, [2019-06-10T18:09:42.806489 #14351]  INFO -- : Preencheu o campo editTextPassword com o valor ["teste"]
+I, [2019-06-10T18:09:42.806607 #14351]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-10T18:09:42.903743 #14351]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-10T18:09:46.041783 #14351]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-10T18:09:47.128690 #14351]  INFO -- : Fim do Teste!

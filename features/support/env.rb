@@ -3,6 +3,9 @@ require 'appium_lib'
 require 'cucumber'
 require 'selenium-webdriver'
 require 'allure-cucumber'
+require 'rubygems'
+require 'rspec/expectations'
+require_relative '../pageobjects/login_page.rb'
 
 class AppiumWorld
 end
@@ -14,10 +17,10 @@ $logger = Logger.new("./exec-logs/exec-log-#{time}.log")
 if ENV['PLATFORM'].nil?
     raise 'Voce tem que definir se é iOS ou Android'
 else
-    env = ENV['PLATFORM'].downcase
+    $env = ENV['PLATFORM'].downcase
 end
 
-case env
+case $env
     when 'android'
         def caps
             { caps: {
