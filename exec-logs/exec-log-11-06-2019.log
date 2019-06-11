@@ -1,0 +1,169 @@
+# Logfile created on 2019-06-11 09:36:06 -0300 by logger.rb/66358
+I, [2019-06-11T09:39:00.549939 #1941]  INFO -- : Início do teste...
+I, [2019-06-11T09:39:00.550992 #1941]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T09:39:01.230066 #1941]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T09:39:01.910808 #1941]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-11T09:39:02.317331 #1941]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-11T09:39:09.099811 #1941]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-06-11T09:39:15.326871 #1941]  INFO -- : Preencheu o campo editTextPassword com o valor thi0927
+I, [2019-06-11T09:39:15.327006 #1941]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T09:39:15.906122 #1941]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-11T09:39:16.253561 #1941]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-11T09:39:17.469051 #1941]  INFO -- : Fim do Teste!
+I, [2019-06-11T10:22:33.238268 #3010]  INFO -- : Início do teste...
+I, [2019-06-11T10:22:33.239663 #3010]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T10:22:34.550673 #3010]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-11T10:22:34.929740 #3010]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-11T10:22:35.899534 #3010]  INFO -- : Fim do Teste!
+I, [2019-06-11T10:26:09.571095 #3103]  INFO -- : Início do teste...
+I, [2019-06-11T10:26:09.572352 #3103]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T10:26:11.141099 #3103]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T10:26:11.186592 #3103]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-11T10:26:11.589231 #3103]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-11T10:26:12.589072 #3103]  INFO -- : Fim do Teste!
+I, [2019-06-11T10:31:51.840316 #3261]  INFO -- : Início do teste...
+I, [2019-06-11T10:31:51.841183 #3261]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T10:31:53.169446 #3261]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-11T10:31:53.502143 #3261]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-11T10:32:00.660434 #3261]  INFO -- : Preencheu o campo emailEditText com o valor {"email"=>"frormm@gmail.com"}
+I, [2019-06-11T10:32:01.714118 #3261]  INFO -- : Fim do Teste!
+I, [2019-06-11T10:48:41.248832 #3648]  INFO -- : Início do teste...
+I, [2019-06-11T10:48:41.249773 #3648]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T10:48:42.619360 #3648]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-11T10:48:42.997370 #3648]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-11T10:48:43.985014 #3648]  INFO -- : Fim do Teste!
+I, [2019-06-11T10:49:13.460296 #3714]  INFO -- : Início do teste...
+I, [2019-06-11T10:49:13.462350 #3714]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T10:49:14.732437 #3714]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-11T10:49:15.122300 #3714]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-11T10:49:16.150890 #3714]  INFO -- : Fim do Teste!
+I, [2019-06-11T10:50:11.785183 #3775]  INFO -- : Início do teste...
+I, [2019-06-11T10:50:11.786462 #3775]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T10:50:13.180220 #3775]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-11T10:50:13.568492 #3775]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-11T11:21:47.858816 #3775]  INFO -- : Fim do Teste!
+I, [2019-06-11T11:21:54.485655 #4069]  INFO -- : Início do teste...
+I, [2019-06-11T11:21:54.486600 #4069]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T11:21:55.854452 #4069]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-11T11:21:56.292565 #4069]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-11T11:22:11.209845 #4069]  INFO -- : Fim do Teste!
+I, [2019-06-11T11:24:16.841819 #4187]  INFO -- : Início do teste...
+I, [2019-06-11T11:24:16.842853 #4187]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T11:24:17.583141 #4187]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T11:24:18.345205 #4187]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-11T11:24:18.775157 #4187]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-11T11:24:58.178032 #4187]  INFO -- : Fim do Teste!
+I, [2019-06-11T11:25:03.731959 #4261]  INFO -- : Início do teste...
+I, [2019-06-11T11:25:03.734562 #4261]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T11:25:04.999065 #4261]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-11T11:25:05.328200 #4261]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-11T11:25:17.200749 #4261]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-06-11T11:25:23.413536 #4261]  INFO -- : Preencheu o campo editTextPassword com o valor thi0927
+I, [2019-06-11T11:25:23.413689 #4261]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T11:25:24.013473 #4261]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-11T11:25:24.337141 #4261]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-11T11:25:27.547616 #4261]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-11T11:25:28.668995 #4261]  INFO -- : Fim do Teste!
+I, [2019-06-11T11:35:44.655284 #4478]  INFO -- : Início do teste...
+I, [2019-06-11T11:35:44.657681 #4478]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T11:35:45.221836 #4478]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T11:35:45.573617 #4478]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T11:35:46.583040 #4478]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-11T11:35:46.999911 #4478]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-11T11:36:04.916906 #4478]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-06-11T11:36:11.079985 #4478]  INFO -- : Preencheu o campo editTextPassword com o valor thi0927
+I, [2019-06-11T11:36:11.080241 #4478]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T11:36:11.624213 #4478]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-11T11:36:11.984249 #4478]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-11T11:36:15.230724 #4478]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-11T11:36:16.724268 #4478]  INFO -- : Fim do Teste!
+I, [2019-06-11T11:39:05.865940 #4611]  INFO -- : Início do teste...
+I, [2019-06-11T11:39:05.867062 #4611]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T11:39:07.224671 #4611]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-11T11:39:07.598180 #4611]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-11T11:39:14.922867 #4611]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-06-11T11:39:21.148774 #4611]  INFO -- : Preencheu o campo editTextPassword com o valor thi0927
+I, [2019-06-11T11:39:21.148882 #4611]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T11:39:21.689879 #4611]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-11T11:39:22.018117 #4611]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-11T11:39:25.580485 #4611]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-11T11:39:26.656360 #4611]  INFO -- : Fim do Teste!
+I, [2019-06-11T11:40:00.367771 #4686]  INFO -- : Início do teste...
+I, [2019-06-11T11:40:00.368849 #4686]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T11:40:01.658720 #4686]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-11T11:40:02.055288 #4686]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-11T11:40:10.812406 #4686]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-06-11T11:40:17.070039 #4686]  INFO -- : Preencheu o campo editTextPassword com o valor thi0927
+I, [2019-06-11T11:40:17.070136 #4686]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T11:40:17.668194 #4686]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-11T11:40:18.018215 #4686]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-11T11:40:21.567705 #4686]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-11T11:40:22.716817 #4686]  INFO -- : Fim do Teste!
+I, [2019-06-11T11:53:01.034117 #4978]  INFO -- : Início do teste...
+I, [2019-06-11T11:53:01.035530 #4978]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T11:53:02.297495 #4978]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-11T11:53:02.668547 #4978]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-11T11:53:09.600419 #4978]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-06-11T11:53:15.828959 #4978]  INFO -- : Preencheu o campo editTextPassword com o valor thi0927
+I, [2019-06-11T11:53:15.829169 #4978]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T11:53:16.416292 #4978]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-11T11:53:16.756642 #4978]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-11T11:53:23.914604 #4978]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-11T11:53:24.990758 #4978]  INFO -- : Fim do Teste!
+I, [2019-06-11T11:54:41.749533 #5066]  INFO -- : Início do teste...
+I, [2019-06-11T11:54:41.753226 #5066]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T11:54:43.070685 #5066]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-11T11:54:43.432202 #5066]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-11T11:54:50.392356 #5066]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-06-11T11:54:56.594124 #5066]  INFO -- : Preencheu o campo editTextPassword com o valor thi0927
+I, [2019-06-11T11:54:56.596399 #5066]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T11:54:57.279925 #5066]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-11T11:54:57.617628 #5066]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-11T11:55:00.563810 #5066]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-11T11:55:01.689228 #5066]  INFO -- : Fim do Teste!
+I, [2019-06-11T11:55:18.871463 #5119]  INFO -- : Início do teste...
+I, [2019-06-11T11:55:18.873759 #5119]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T11:55:20.134408 #5119]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-11T11:55:20.478470 #5119]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-11T11:55:26.810798 #5119]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-06-11T11:55:33.061807 #5119]  INFO -- : Preencheu o campo editTextPassword com o valor thi0927
+I, [2019-06-11T11:55:33.062019 #5119]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T11:55:33.619009 #5119]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-11T11:55:33.943044 #5119]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-11T11:55:38.495901 #5119]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-11T13:44:29.103965 #5119]  INFO -- : Fim do Teste!
+I, [2019-06-11T13:44:36.140689 #6045]  INFO -- : Início do teste...
+I, [2019-06-11T13:44:36.143994 #6045]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T13:44:36.840427 #6045]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T13:44:38.096354 #6045]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-11T13:44:38.828596 #6045]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-11T13:44:45.879147 #6045]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-06-11T13:44:52.123160 #6045]  INFO -- : Preencheu o campo editTextPassword com o valor thi0927
+I, [2019-06-11T13:44:52.127720 #6045]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T13:44:52.661896 #6045]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-11T13:44:52.987412 #6045]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-11T13:44:55.766403 #6045]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-11T13:44:57.021037 #6045]  INFO -- : Fim do Teste!
+I, [2019-06-11T13:45:35.663033 #6110]  INFO -- : Início do teste...
+I, [2019-06-11T13:45:35.665173 #6110]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T13:45:37.006454 #6110]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-11T13:45:37.377905 #6110]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-11T13:45:43.881443 #6110]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-06-11T13:45:50.091929 #6110]  INFO -- : Preencheu o campo editTextPassword com o valor thi0927
+I, [2019-06-11T13:45:50.092033 #6110]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T13:45:50.643473 #6110]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-11T13:45:50.997095 #6110]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-11T13:45:54.658408 #6110]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-11T13:45:55.756647 #6110]  INFO -- : Fim do Teste!
+I, [2019-06-11T17:29:16.969691 #9787]  INFO -- : Início do teste...
+I, [2019-06-11T17:29:16.972014 #9787]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T17:29:17.619663 #9787]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T17:29:18.477444 #9787]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-11T17:29:18.869158 #9787]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-11T17:29:25.425891 #9787]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-06-11T17:29:31.621030 #9787]  INFO -- : Preencheu o campo editTextPassword com o valor thi0927
+I, [2019-06-11T17:29:31.621132 #9787]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-11T17:29:32.214730 #9787]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-11T17:29:32.525775 #9787]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-11T17:29:37.755783 #9787]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-11T17:29:38.896037 #9787]  INFO -- : Fim do Teste!

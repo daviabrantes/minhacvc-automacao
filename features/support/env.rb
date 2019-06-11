@@ -4,7 +4,8 @@ require 'cucumber'
 require 'selenium-webdriver'
 require 'allure-cucumber'
 require 'rubygems'
-require 'rspec/expectations'
+require 'rspec'
+require "rspec/expectations"
 require_relative '../pageobjects/login_page.rb'
 
 class AppiumWorld
@@ -60,5 +61,4 @@ World do
     AppiumWorld.new
 end
   
-
-  
+Massa = YAML.load_file("features/support/massa.yaml")

@@ -10,6 +10,6 @@ Quando("informar os dados de usuário válido") do
 end
   
 Então("devo realizar o login com sucesso") do
-    pending # Write code here that turns the phrase above into concrete actions
+    $login_page.assertLoginPage
 end
   

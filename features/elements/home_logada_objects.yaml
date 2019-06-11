@@ -1,0 +1,11 @@
+android:
+  label_nome_entrada:     'fragmentStartTxtGreetingTitle'
+  text_buscar_pacotes:    'package_search'
+  container_sugestao:     'package_container' #pega por index
+  banner_promocao:        'imageViewBanner'
+
+
+
+ios:
+  button_entrar:          '//xpath/do/elemento'
+

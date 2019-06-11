@@ -4,6 +4,14 @@
     Selenium::WebDriver::Wait.new(:timeout => seconds).until {yield}
   end
 
+  def swipe_down
+    @x = window_size[:width]/2
+    @y = window_size[:height] - 200
+    @startCords = [@x,@y]
+    @endCords = first_text.location
+   swipe(start_x:@startCords[0],start_y:@startCords[1],end_x:@endCords[0],end_y:@endCords[1], duration:1000)
+  end
+
   def button_exists?(button)
     $logger.info("Verificando a existência do elemento #{el}")
     $driver.find_elements(:id, button).count > 0
@@ -15,7 +23,7 @@
   end
   
   def wait_for_element_to_exist(el)
-     wait(8) { element_exists? el }
+     wait(10) { element_exists? el }
      $logger.info("Aguardou a existência do elemento #{el}")
   end
   
@@ -53,6 +61,7 @@
   end
   
   def get_text(el)
+    wait(8) { $driver.find_element(:id, el).displayed? }
     $logger.info('Está buscando o texto do elemento ' + el)
     return $driver.find_element(:id, el).text
   end
@@ -64,14 +73,7 @@
   
   def get_text_index(el, index)
     $logger.info("Indice do texto #{index} do elemento #{el}")
-    case el
-    when 'XPATH'
-      return $driver.find_elements(:xpath, el).get(index).text
-    when 'ID'
-      return $driver.find_elements(:id, el).get(index).text
-    when 'CLASS'
-      return $driver.find_elements(:class, el).get(index).text
-    end
+    return $driver.find_elements(:id, el).get(index).text
   end
   
   def fill_in(el, text)
@@ -108,43 +110,14 @@
   end
   
   def scroll_to(el_start, el_start_location, el_end, el_end_location)
-    if el_start_location == 'ID' && el_end_location == 'ID'
-      # get element coordinates start
-      el_start = $driver.find_element(:id, el_start)
-      screen_x_start = el_start.location.x
-      screen_y_start = el_start.location.y
-      # get element coordinates end
-      el_end = $driver.find_element(:id, el_end)
-      screen_x_end = el_end.location.x
-      screen_y_end = el_end.location.y
-    elsif el_start_location == 'XPATH' && el_end_location == 'XPATH'
-      # get element coordinates start
-      el_start = $driver.find_element(:xpath, el_start)
-      screen_x_start = el_start.location.x
-      screen_y_start = el_start.location.y
-      # get element coordinates end
-      el_end = $driver.find_element(:xpath, el_end)
-      screen_x_end = el_end.location.x
-      screen_y_end = el_end.location.y
-    elsif el_start_location == 'ID' && el_end_location == 'XPATH'
-      # get element coordinates start
-      el_start = $driver.find_element(:id, el_start)
-      screen_x_start = el_start.location.x
-      screen_y_start = el_start.location.y
-      # get element coordinates end
-      el_end = $driver.find_element(:xpath, el_end)
-      screen_x_end = el_end.location.x
-      screen_y_end = el_end.location.y
-    elsif el_start_location == 'XPATH' && el_end_location == 'ID'
-      # get element coordinates start
-      el_start = $driver.find_element(:xpath, el_start)
-      screen_x_start = el_start.location.x
-      screen_y_start = el_start.location.y
-      # get element coordinates end
-      el_end = $driver.find_element(:id, el_end)
-      screen_x_end = el_end.location.x
-      screen_y_end = el_end.location.y
-    end
+    # get element coordinates start
+    el_start = $driver.find_element(:id, el_start)
+    screen_x_start = el_start.location.x
+    screen_y_start = el_start.location.y
+    # get element coordinates end
+    el_end = $driver.find_element(:id, el_end)
+    screen_x_end = el_end.location.x
+    screen_y_end = el_end.location.y
     Appium::TouchAction.new.swipe(start_x: screen_x_start, start_y: screen_y_start, delta_x: screen_x_end, delta_y: screen_y_end).perform
     $logger.info("Executou o scroll para as coordenadas: screen_x_start #{screen_x_start} - screen_y_start #{screen_y_start} - screen_x_end #{screen_x_end} - screen_y_end #{screen_y_end}")
   end
