@@ -18,6 +18,10 @@ android:
   text_senha_cadastro:        'passwordEditText'
   link_politica_seguranca:    'privacyPolicyTextView'
   button_continuar:           'sendButton'
+  #Tela Usuario Cadastrado
+  label_email_cadastrado:     'signUpEmail'
+  label_cadastro_realizado:   'title'
+  button_entrar_cadastro:     'buttonOk'
 
 ios:
   #Tela Inicial

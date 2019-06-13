@@ -167,3 +167,7 @@ I, [2019-06-11T17:29:32.214730 #9787]  INFO -- : Aguardou a existência do eleme
 I, [2019-06-11T17:29:32.525775 #9787]  INFO -- : Clicou no botão buttonSignIn
 I, [2019-06-11T17:29:37.755783 #9787]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
 I, [2019-06-11T17:29:38.896037 #9787]  INFO -- : Fim do Teste!
+I, [2019-06-11T17:48:27.129860 #10503]  INFO -- : Início do teste...
+I, [2019-06-11T17:48:28.062185 #10503]  INFO -- : Fim do Teste!
+I, [2019-06-11T17:49:47.132985 #10613]  INFO -- : Início do teste...
+I, [2019-06-11T17:49:48.199131 #10613]  INFO -- : Fim do Teste!

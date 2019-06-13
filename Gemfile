@@ -13,6 +13,7 @@ gem 'cucumber', '2.4.0'
 gem 'rake'
 gem 'redcarpet'
 gem 'rspec'
+gem 'ffaker'
 gem 'rspec-expectations'
 gem 'rubocop', require: false
 gem 'selenium-webdriver'

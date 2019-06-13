@@ -5,11 +5,28 @@ Dado("que estou na home de login") do
     $logger.info('Início do teste...')
 end
   
-Quando("informar os dados de usuário válido") do
+Quando("informar os dados de usuário válidos") do
     $login_page.login
 end
-  
-Então("devo realizar o login com sucesso") do
-    $login_page.assertLoginPage
+
+Quando("continuar sem login") do
+    $login_page.loginless
 end
   
+Quando("cadastrar os dados de usuário válidos") do
+    $login_page.cadastrarUsuario
+end
+
+Então("devo acessar a home logado com sucesso") do
+    $login_page.assertLogin
+end 
+
+Então("devo acessar a home sem login com sucesso") do
+    $login_page.assertLoginless
+end
+
+Então("devo acessar a home cadastrado com sucesso") do
+    $login_page.assertCadastro
+end 
+
+
