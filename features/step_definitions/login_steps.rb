@@ -17,6 +17,14 @@ Quando("cadastrar os dados de usuário válidos") do
     $login_page.cadastrarUsuario
 end
 
+Quando("informar um email não cadastrado") do
+    $login_page.loginErroEmail
+end
+
+Quando("informar uma senha incorreta") do
+    $login_page.loginErroSenha
+end
+
 Então("devo acessar a home logado com sucesso") do
     $login_page.assertLogin
 end 
@@ -28,5 +36,9 @@ end
 Então("devo acessar a home cadastrado com sucesso") do
     $login_page.assertCadastro
 end 
+
+Então("devo encontrar a mensagem de email ou senha incorretos") do
+    $login_page.assertLoginErro
+end
 
 

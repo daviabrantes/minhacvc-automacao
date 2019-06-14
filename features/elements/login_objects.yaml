@@ -11,6 +11,7 @@ android:
   text_senha:                 'editTextPassword'
   link_esqueci_senha:         'textViewResetPassword'
   link_cadastro:              'textViewSignUp'
+  label_email_senha_erro:     'text_view_alert_title'
   #Tela Cadastro
   text_nome_completo:         'fullNameEditText'
   text_cpf:                   'sign_up_edit_cpf'

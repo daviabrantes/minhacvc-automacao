@@ -980,3 +980,18 @@ I, [2019-06-13T17:39:00.713805 #13858]  INFO -- : Está buscando o texto do elem
 I, [2019-06-13T17:39:00.863557 #13858]  INFO -- : Está buscando o texto do elemento title
 I, [2019-06-13T17:39:00.915498 #13858]  INFO -- : Assert de Cadastro passou!
 I, [2019-06-13T17:39:02.104236 #13858]  INFO -- : Fim do Teste!
+I, [2019-06-13T17:49:17.484369 #14207]  INFO -- : Início do teste...
+I, [2019-06-13T17:49:17.490200 #14207]  INFO -- : Verificando se existe o elemento buttonSignUp
+I, [2019-06-13T17:49:18.141152 #14207]  INFO -- : Verificando se existe o elemento buttonSignUp
+I, [2019-06-13T17:49:19.125087 #14207]  INFO -- : Aguardou a existência do elemento buttonSignUp
+I, [2019-06-13T17:49:19.577285 #14207]  INFO -- : Clicou no botão buttonSignUp
+I, [2019-06-13T17:49:26.337203 #14207]  INFO -- : Preencheu o campo fullNameEditText com o valor Taís
+I, [2019-06-13T17:49:32.224499 #14207]  INFO -- : Preencheu o campo sign_up_edit_cpf com o valor 11679617737
+I, [2019-06-13T17:49:38.722167 #14207]  INFO -- : Preencheu o campo sign_up_edit_birthday com o valor 11111937
+I, [2019-06-13T17:49:45.291503 #14207]  INFO -- : Preencheu o campo emailEditText com o valor sharika.zemlak@hotmail.com
+I, [2019-06-13T17:49:51.647518 #14207]  INFO -- : Preencheu o campo passwordEditText com o valor Senha123!
+I, [2019-06-13T17:49:52.246451 #14207]  INFO -- : Verificando se existe o elemento sendButton
+I, [2019-06-13T17:49:52.917749 #14207]  INFO -- : Aguardou a existência do elemento sendButton
+I, [2019-06-13T17:49:56.074764 #14207]  INFO -- : Clicou no botão sendButton
+I, [2019-06-13T17:49:56.074835 #14207]  INFO -- : Cadastrei usuário com sucesso - Email: sharika.zemlak@hotmail.com - Senha: Senha123!
+I, [2019-06-13T17:50:05.166161 #14207]  INFO -- : Fim do Teste!

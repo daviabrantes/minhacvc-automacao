@@ -6,6 +6,7 @@ require 'allure-cucumber'
 require 'rubygems'
 require 'rspec'
 require "rspec/expectations"
+require 'report_builder'
 require_relative '../pageobjects/login_page.rb'
 
 class AppiumWorld
