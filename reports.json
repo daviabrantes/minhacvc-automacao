@@ -1,0 +1,86 @@
+[
+  {
+    "uri": "features/login.feature",
+    "id": "login",
+    "keyword": "Funcionalidade",
+    "name": "Login",
+    "description": "A tela de login possuí os campos email e senha (email sem restrição de domínio)\nA senha a princípio seria de (4 a 8 dígitos a confirmar)\nA tela de login possuí também um link de esqueci minha senha e cadastra-se\nA tela de login possuí um botão de entrar",
+    "line": 2,
+    "elements": [
+      {
+        "id": "login;efetuar-cadastro-com-sucesso",
+        "keyword": "Cenário",
+        "name": "Efetuar cadastro com sucesso",
+        "description": "",
+        "line": 34,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@Cadastro",
+            "line": 33
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3524982000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que estou na home de login",
+            "line": 35,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2196000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "cadastrar os dados de usuário válidos",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35181591000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "devo acessar a home cadastrado com sucesso",
+            "line": 37,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1276920000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1426611000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

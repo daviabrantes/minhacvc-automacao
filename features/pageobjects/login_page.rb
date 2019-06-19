@@ -108,11 +108,11 @@ class LoginPage
   end
 
   def assertLoginErro
-      if expect(get_text @mappings['label_email_senha_erro']).to eq('E-mail ou senha incorretos.')
-        $logger.info('Erro no Login com sucesso')
-      else
-        $logger.error('Login foi realizado - erro!')
-      end
+    if expect(get_text @mappings['label_email_senha_erro']).to eq('E-mail ou senha incorretos.')
+      $logger.info('Erro no Login com sucesso')
+    else
+      $logger.error('Login foi realizado - erro!')
+    end
   end
 
 end
