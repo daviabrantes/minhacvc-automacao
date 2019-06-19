@@ -8,26 +8,62 @@
     "line": 2,
     "elements": [
       {
-        "id": "login;efetuar-cadastro-com-sucesso",
+        "id": "login;efetuar-loginless-com-sucesso",
         "keyword": "Cenário",
-        "name": "Efetuar cadastro com sucesso",
+        "name": "Efetuar loginless com sucesso",
         "description": "",
-        "line": 34,
+        "line": 28,
         "type": "scenario",
         "tags": [
           {
-            "name": "@Cadastro",
-            "line": 33
+            "name": "@Loginless",
+            "line": 27
           }
         ],
         "before": [
+          {
+            "match": {
+              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000
+            }
+          },
           {
             "match": {
               "location": "features/support/hooks.rb:1"
             },
             "result": {
               "status": "passed",
-              "duration": 3524982000
+              "duration": 2998927000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37000
             }
           }
         ],
@@ -35,37 +71,37 @@
           {
             "keyword": "Dado ",
             "name": "que estou na home de login",
-            "line": 35,
+            "line": 29,
             "match": {
               "location": "features/step_definitions/login_steps.rb:3"
             },
             "result": {
               "status": "passed",
-              "duration": 2196000
+              "duration": 723000
             }
           },
           {
             "keyword": "Quando ",
-            "name": "cadastrar os dados de usuário válidos",
-            "line": 36,
+            "name": "continuar sem login",
+            "line": 30,
             "match": {
-              "location": "features/step_definitions/login_steps.rb:16"
+              "location": "features/step_definitions/login_steps.rb:12"
             },
             "result": {
               "status": "passed",
-              "duration": 35181591000
+              "duration": 1591690000
             }
           },
           {
             "keyword": "Então ",
-            "name": "devo acessar a home cadastrado com sucesso",
-            "line": 37,
+            "name": "devo acessar a home sem login com sucesso",
+            "line": 31,
             "match": {
-              "location": "features/step_definitions/login_steps.rb:36"
+              "location": "features/step_definitions/login_steps.rb:32"
             },
             "result": {
               "status": "passed",
-              "duration": 1276920000
+              "duration": 6106308000
             }
           }
         ],
@@ -76,7 +112,25 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1426611000
+              "duration": 948135000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17000
             }
           }
         ]

@@ -300,3 +300,339 @@ I, [2019-06-19T14:46:12.120663 #6443]  INFO -- : Clicou no botão sendButton
 I, [2019-06-19T14:46:12.121727 #6443]  INFO -- : Verificando se existe o elemento signUpEmail
 E, [2019-06-19T14:46:13.398371 #6443] ERROR -- : Cadastro não deu certo!
 I, [2019-06-19T14:46:14.826404 #6443]  INFO -- : Fim do Teste!
+I, [2019-06-19T15:57:22.102391 #7564]  INFO -- : Início do teste...
+I, [2019-06-19T15:57:22.103824 #7564]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T15:57:23.365262 #7564]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T15:57:23.611704 #7564]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T15:57:23.612614 #7564]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T15:57:25.421187 #7564]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T15:57:25.508647 #7564]  INFO -- : Acesso sem login com sucesso!
+I, [2019-06-19T15:57:26.463723 #7564]  INFO -- : Fim do Teste!
+I, [2019-06-19T15:57:55.550350 #7634]  INFO -- : Início do teste...
+I, [2019-06-19T15:57:55.554723 #7634]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T15:57:56.316752 #7634]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T15:57:56.997963 #7634]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T15:57:57.223869 #7634]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T15:57:57.226235 #7634]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T15:57:58.941185 #7634]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T15:57:59.059113 #7634]  INFO -- : Acesso sem login com sucesso!
+I, [2019-06-19T15:57:59.969960 #7634]  INFO -- : Fim do Teste!
+I, [2019-06-19T15:58:27.671834 #7705]  INFO -- : Início do teste...
+I, [2019-06-19T15:58:27.672787 #7705]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T15:58:28.907742 #7705]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T15:58:29.135300 #7705]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T15:58:29.137330 #7705]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T15:58:31.338655 #7705]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T15:58:31.428968 #7705]  INFO -- : Acesso sem login com sucesso!
+I, [2019-06-19T15:58:32.469446 #7705]  INFO -- : Fim do Teste!
+I, [2019-06-19T15:59:13.252004 #7814]  INFO -- : Início do teste...
+I, [2019-06-19T15:59:13.253106 #7814]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T15:59:14.514436 #7814]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T15:59:14.747371 #7814]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T15:59:14.748370 #7814]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T15:59:16.673829 #7814]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T15:59:16.824185 #7814]  INFO -- : Acesso sem login com sucesso!
+I, [2019-06-19T15:59:17.722097 #7814]  INFO -- : Fim do Teste!
+I, [2019-06-19T15:59:54.666859 #7887]  INFO -- : Início do teste...
+I, [2019-06-19T15:59:54.668079 #7887]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T15:59:55.937243 #7887]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T15:59:56.177040 #7887]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T15:59:56.177941 #7887]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T15:59:58.056915 #7887]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T15:59:58.157942 #7887]  INFO -- : Acesso sem login com sucesso!
+I, [2019-06-19T15:59:59.122143 #7887]  INFO -- : Fim do Teste!
+I, [2019-06-19T16:01:01.074104 #7968]  INFO -- : Início do teste...
+I, [2019-06-19T16:01:01.075015 #7968]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T16:01:02.342106 #7968]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T16:01:02.573463 #7968]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T16:01:02.574401 #7968]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:01:04.442059 #7968]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:01:04.506450 #7968]  INFO -- : Acesso sem login com sucesso!
+I, [2019-06-19T16:01:05.473527 #7968]  INFO -- : Fim do Teste!
+I, [2019-06-19T16:02:51.611210 #8074]  INFO -- : Início do teste...
+I, [2019-06-19T16:02:51.612179 #8074]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T16:02:52.357676 #8074]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T16:02:52.641257 #8074]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T16:02:53.302980 #8074]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T16:02:53.668696 #8074]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T16:02:53.670209 #8074]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:02:55.172609 #8074]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:02:55.307606 #8074]  INFO -- : Acesso sem login com sucesso!
+I, [2019-06-19T16:02:56.226267 #8074]  INFO -- : Fim do Teste!
+I, [2019-06-19T16:03:25.450257 #8142]  INFO -- : Início do teste...
+I, [2019-06-19T16:03:25.451245 #8142]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T16:03:26.678170 #8142]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T16:03:26.917794 #8142]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T16:03:26.919538 #8142]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:03:28.674680 #8142]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:03:28.756778 #8142]  INFO -- : Acesso sem login com sucesso!
+I, [2019-06-19T16:03:29.640440 #8142]  INFO -- : Fim do Teste!
+I, [2019-06-19T16:06:48.342191 #8280]  INFO -- : Início do teste...
+I, [2019-06-19T16:06:48.343309 #8280]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T16:06:49.106299 #8280]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T16:06:49.940982 #8280]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T16:06:50.172743 #8280]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T16:06:50.174849 #8280]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:06:52.105493 #8280]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:06:52.191692 #8280]  INFO -- : Acesso sem login com sucesso!
+I, [2019-06-19T16:06:53.093041 #8280]  INFO -- : Fim do Teste!
+I, [2019-06-19T16:07:06.139000 #8331]  INFO -- : Início do teste...
+I, [2019-06-19T16:07:06.140601 #8331]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T16:07:07.411373 #8331]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T16:07:07.660797 #8331]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T16:07:07.661960 #8331]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:07:09.387756 #8331]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:07:09.474221 #8331]  INFO -- : Acesso sem login com sucesso!
+I, [2019-06-19T16:07:10.340226 #8331]  INFO -- : Fim do Teste!
+I, [2019-06-19T16:07:31.987444 #8392]  INFO -- : Início do teste...
+I, [2019-06-19T16:07:31.988856 #8392]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T16:07:33.225941 #8392]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T16:07:33.455688 #8392]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T16:07:33.456892 #8392]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:07:35.153930 #8392]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:07:35.224195 #8392]  INFO -- : Acesso sem login com sucesso!
+I, [2019-06-19T16:07:36.110866 #8392]  INFO -- : Fim do Teste!
+I, [2019-06-19T16:07:51.055735 #8443]  INFO -- : Início do teste...
+I, [2019-06-19T16:07:51.056712 #8443]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T16:07:52.461160 #8443]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T16:07:52.704373 #8443]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T16:07:52.705385 #8443]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:07:54.438899 #8443]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:07:54.504157 #8443]  INFO -- : Acesso sem login com sucesso!
+I, [2019-06-19T16:07:55.371158 #8443]  INFO -- : Fim do Teste!
+I, [2019-06-19T16:08:49.980382 #8522]  INFO -- : Início do teste...
+I, [2019-06-19T16:08:49.981279 #8522]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T16:08:51.281717 #8522]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T16:08:51.524573 #8522]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T16:08:51.525563 #8522]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:08:53.172177 #8522]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:08:53.240014 #8522]  INFO -- : Acesso sem login com sucesso!
+I, [2019-06-19T16:08:54.130083 #8522]  INFO -- : Fim do Teste!
+I, [2019-06-19T16:09:21.340167 #8576]  INFO -- : Início do teste...
+I, [2019-06-19T16:09:21.340896 #8576]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T16:09:22.643827 #8576]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T16:09:22.893547 #8576]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T16:09:22.894401 #8576]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:09:24.604149 #8576]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:09:24.673195 #8576]  INFO -- : Acesso sem login com sucesso!
+I, [2019-06-19T16:09:25.552246 #8576]  INFO -- : Fim do Teste!
+I, [2019-06-19T16:10:10.357903 #8633]  INFO -- : Início do teste...
+I, [2019-06-19T16:10:10.360305 #8633]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T16:10:11.611409 #8633]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T16:10:11.838960 #8633]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T16:10:11.840080 #8633]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:10:13.539617 #8633]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:10:13.672142 #8633]  INFO -- : Acesso sem login com sucesso!
+I, [2019-06-19T16:10:14.547445 #8633]  INFO -- : Fim do Teste!
+I, [2019-06-19T16:10:36.406222 #8693]  INFO -- : Início do teste...
+I, [2019-06-19T16:10:36.407373 #8693]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T16:10:37.744861 #8693]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T16:10:37.972387 #8693]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T16:10:37.973529 #8693]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:10:39.758096 #8693]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:10:39.821452 #8693]  INFO -- : Acesso sem login com sucesso!
+I, [2019-06-19T16:10:40.712491 #8693]  INFO -- : Fim do Teste!
+I, [2019-06-19T16:10:53.441136 #8753]  INFO -- : Início do teste...
+I, [2019-06-19T16:10:53.442032 #8753]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T16:10:54.727725 #8753]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T16:10:54.967587 #8753]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T16:10:54.969775 #8753]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:10:56.871519 #8753]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:10:56.973793 #8753]  INFO -- : Acesso sem login com sucesso!
+I, [2019-06-19T16:10:57.888193 #8753]  INFO -- : Fim do Teste!
+I, [2019-06-19T16:11:20.763827 #8813]  INFO -- : Início do teste...
+I, [2019-06-19T16:11:20.764746 #8813]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T16:11:21.986817 #8813]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T16:11:22.219680 #8813]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T16:11:22.222272 #8813]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:11:24.022767 #8813]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:11:24.105397 #8813]  INFO -- : Acesso sem login com sucesso!
+I, [2019-06-19T16:11:25.002921 #8813]  INFO -- : Fim do Teste!
+I, [2019-06-19T16:14:14.824889 #8923]  INFO -- : Início do teste...
+I, [2019-06-19T16:14:14.825837 #8923]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T16:14:15.546278 #8923]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T16:14:15.828015 #8923]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T16:14:16.760664 #8923]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T16:14:17.176202 #8923]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T16:14:17.177095 #8923]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:14:18.926212 #8923]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:14:19.055041 #8923]  INFO -- : Acesso sem login com sucesso!
+I, [2019-06-19T16:14:20.036139 #8923]  INFO -- : Fim do Teste!
+I, [2019-06-19T16:14:59.132220 #8989]  INFO -- : Início do teste...
+I, [2019-06-19T16:14:59.133382 #8989]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T16:15:00.293552 #8989]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T16:15:00.541378 #8989]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T16:15:00.542925 #8989]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:15:02.204446 #8989]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:15:02.339060 #8989]  INFO -- : Acesso sem login com sucesso!
+I, [2019-06-19T16:15:03.214359 #8989]  INFO -- : Fim do Teste!
+I, [2019-06-19T16:16:19.120974 #9062]  INFO -- : Início do teste...
+I, [2019-06-19T16:16:19.121867 #9062]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T16:16:20.358244 #9062]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T16:16:20.592360 #9062]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T16:16:20.593227 #9062]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:16:22.321489 #9062]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:16:22.389046 #9062]  INFO -- : Acesso sem login com sucesso!
+I, [2019-06-19T16:16:23.262599 #9062]  INFO -- : Fim do Teste!
+I, [2019-06-19T16:16:49.841241 #9130]  INFO -- : Início do teste...
+I, [2019-06-19T16:16:49.842065 #9130]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T16:16:51.119579 #9130]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T16:16:51.376149 #9130]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T16:16:51.376960 #9130]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:16:53.020104 #9130]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:16:53.088158 #9130]  INFO -- : Acesso sem login com sucesso!
+I, [2019-06-19T16:16:53.993775 #9130]  INFO -- : Fim do Teste!
+I, [2019-06-19T16:17:08.380646 #9188]  INFO -- : Início do teste...
+I, [2019-06-19T16:17:08.381435 #9188]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T16:17:09.632886 #9188]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T16:17:09.857016 #9188]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T16:17:09.857895 #9188]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:17:11.620574 #9188]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:17:11.689266 #9188]  INFO -- : Acesso sem login com sucesso!
+I, [2019-06-19T16:17:12.553739 #9188]  INFO -- : Fim do Teste!
+I, [2019-06-19T16:19:30.564233 #9296]  INFO -- : Início do teste...
+I, [2019-06-19T16:19:30.566076 #9296]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T16:19:31.854903 #9296]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T16:19:32.085867 #9296]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T16:19:32.087190 #9296]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:19:33.835099 #9296]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:19:33.921496 #9296]  INFO -- : Acesso sem login com sucesso!
+I, [2019-06-19T16:19:35.859426 #9296]  INFO -- : Fim do Teste!
+I, [2019-06-19T16:53:44.680618 #10139]  INFO -- : Início do teste...
+I, [2019-06-19T16:53:44.682341 #10139]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T16:53:46.080774 #10139]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T16:53:46.356434 #10139]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T16:53:46.357748 #10139]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:53:48.035228 #10139]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:53:48.119406 #10139]  INFO -- : Acesso sem login com sucesso!
+I, [2019-06-19T16:53:49.010263 #10139]  INFO -- : Fim do Teste!
+I, [2019-06-19T16:54:53.485542 #10224]  INFO -- : Início do teste...
+I, [2019-06-19T16:54:53.486509 #10224]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T16:54:54.221326 #10224]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T16:54:54.913289 #10224]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T16:54:55.144115 #10224]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T16:54:55.145853 #10224]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:54:57.198606 #10224]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:54:57.285033 #10224]  INFO -- : Acesso sem login com sucesso!
+I, [2019-06-19T16:54:58.208849 #10224]  INFO -- : Fim do Teste!
+I, [2019-06-19T16:55:31.250415 #10295]  INFO -- : Início do teste...
+I, [2019-06-19T16:55:31.251357 #10295]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T16:55:31.987446 #10295]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T16:55:32.732651 #10295]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T16:55:32.948946 #10295]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T16:55:32.950161 #10295]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:55:34.832705 #10295]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:55:34.917376 #10295]  INFO -- : Acesso sem login com sucesso!
+I, [2019-06-19T16:55:35.814209 #10295]  INFO -- : Fim do Teste!
+I, [2019-06-19T16:56:42.340403 #10373]  INFO -- : Início do teste...
+I, [2019-06-19T16:56:42.341416 #10373]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T16:56:43.580756 #10373]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T16:56:43.814737 #10373]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T16:56:43.815715 #10373]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:56:45.650100 #10373]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:56:45.718912 #10373]  INFO -- : Acesso sem login com sucesso!
+I, [2019-06-19T16:56:46.704575 #10373]  INFO -- : Fim do Teste!
+I, [2019-06-19T16:57:28.579285 #10444]  INFO -- : Início do teste...
+I, [2019-06-19T16:57:28.580648 #10444]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T16:57:29.874521 #10444]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T16:57:30.118309 #10444]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T16:57:30.119281 #10444]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:57:31.915747 #10444]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T16:59:26.937605 #10444]  INFO -- : Fim do Teste!
+I, [2019-06-19T17:00:21.315499 #10577]  INFO -- : Início do teste...
+I, [2019-06-19T17:00:21.316449 #10577]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:00:22.124082 #10577]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:00:22.925235 #10577]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T17:00:23.164996 #10577]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T17:00:23.166967 #10577]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T17:00:24.849469 #10577]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T17:00:27.821880 #10577]  INFO -- : Fim do Teste!
+I, [2019-06-19T17:10:32.720178 #10827]  INFO -- : Início do teste...
+I, [2019-06-19T17:10:32.721236 #10827]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:10:33.868348 #10827]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T17:10:34.109944 #10827]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T17:10:34.111789 #10827]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T17:10:35.854302 #10827]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T17:31:13.944907 #10827]  INFO -- : Fim do Teste!
+I, [2019-06-19T17:31:58.915969 #11280]  INFO -- : Início do teste...
+I, [2019-06-19T17:31:58.917407 #11280]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:31:59.653712 #11280]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:31:59.919221 #11280]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:32:00.183317 #11280]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:32:00.435892 #11280]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:32:00.702935 #11280]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:32:00.964523 #11280]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:32:01.229294 #11280]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:32:01.500347 #11280]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:32:01.759395 #11280]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:32:02.022317 #11280]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:32:02.284329 #11280]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:32:02.549679 #11280]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:32:02.820586 #11280]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:32:03.086079 #11280]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:32:03.354357 #11280]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:32:03.619858 #11280]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:32:03.886359 #11280]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:32:04.148144 #11280]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:32:04.406371 #11280]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:32:04.664856 #11280]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:32:04.911894 #11280]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:32:05.184223 #11280]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:32:05.454565 #11280]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:32:05.714955 #11280]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:32:05.977187 #11280]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:32:06.222465 #11280]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:32:06.493580 #11280]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:32:06.766290 #11280]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:32:07.457138 #11280]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T17:32:07.681796 #11280]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T17:32:07.683846 #11280]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T17:32:09.596485 #11280]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T17:32:37.118659 #11280]  INFO -- : Fim do Teste!
+I, [2019-06-19T17:34:29.619686 #11406]  INFO -- : Início do teste...
+I, [2019-06-19T17:34:29.620681 #11406]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:34:30.950182 #11406]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T17:34:31.166941 #11406]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T17:34:31.168031 #11406]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T17:34:32.865671 #11406]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T17:36:59.813953 #11406]  INFO -- : Acesso sem login com sucesso!
+I, [2019-06-19T17:37:00.763978 #11406]  INFO -- : Fim do Teste!
+I, [2019-06-19T17:44:09.289734 #11700]  INFO -- : Início do teste...
+I, [2019-06-19T17:44:09.290804 #11700]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:44:10.601475 #11700]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T17:44:10.850375 #11700]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T17:44:10.852375 #11700]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T17:44:12.547182 #11700]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T17:45:25.045936 #11700]  INFO -- : Acesso sem login com sucesso!
+I, [2019-06-19T17:45:25.973453 #11700]  INFO -- : Fim do Teste!
+I, [2019-06-19T17:45:32.094902 #11790]  INFO -- : Início do teste...
+I, [2019-06-19T17:45:32.096099 #11790]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:45:33.343139 #11790]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T17:45:33.566489 #11790]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T17:45:33.567384 #11790]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T17:45:35.232437 #11790]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T17:45:46.075409 #11790]  INFO -- : Acesso sem login com sucesso!
+I, [2019-06-19T17:45:46.971240 #11790]  INFO -- : Fim do Teste!
+I, [2019-06-19T17:46:27.508713 #11881]  INFO -- : Início do teste...
+I, [2019-06-19T17:46:27.509943 #11881]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:46:28.934295 #11881]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T17:46:29.172777 #11881]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T17:46:29.173897 #11881]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T17:46:30.899900 #11881]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T17:46:58.095832 #11881]  INFO -- : Acesso sem login com sucesso!
+I, [2019-06-19T17:46:59.018970 #11881]  INFO -- : Fim do Teste!
+I, [2019-06-19T17:47:12.810134 #11939]  INFO -- : Início do teste...
+I, [2019-06-19T17:47:12.811295 #11939]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:47:14.123779 #11939]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T17:47:14.367672 #11939]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T17:47:14.368708 #11939]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T17:47:16.151408 #11939]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T17:47:18.397759 #11939]  INFO -- : Fim do Teste!
+I, [2019-06-19T17:48:38.989017 #12028]  INFO -- : Início do teste...
+I, [2019-06-19T17:48:38.989798 #12028]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:48:40.341067 #12028]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T17:48:40.580763 #12028]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T17:48:40.581896 #12028]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T17:48:42.665328 #12028]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T17:48:46.688083 #12028]  INFO -- : Acesso sem login com sucesso!
+I, [2019-06-19T17:48:47.636659 #12028]  INFO -- : Fim do Teste!

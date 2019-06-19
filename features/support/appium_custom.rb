@@ -4,6 +4,10 @@
     Selenium::WebDriver::Wait.new(:timeout => seconds).until {yield}
   end
 
+  def take_screenshot
+    $driver.screenshot("screenshots/#{$env}/#{$scenario}_#{$time}.png")
+  end
+
   def swipe_down
     @x = window_size[:width]/2
     @y = window_size[:height] - 200

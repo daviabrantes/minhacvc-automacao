@@ -7,6 +7,9 @@ require 'rubygems'
 require 'rspec'
 require "rspec/expectations"
 require 'report_builder'
+require 'capybara/cucumber'
+require 'capybara-screenshot/cucumber'
+require 'base64'
 require_relative '../pageobjects/login_page.rb'
 
 class AppiumWorld
