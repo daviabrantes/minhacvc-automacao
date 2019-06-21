@@ -636,3 +636,11 @@ I, [2019-06-19T17:48:40.581896 #12028]  INFO -- : Verificando se existe o elemen
 I, [2019-06-19T17:48:42.665328 #12028]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
 I, [2019-06-19T17:48:46.688083 #12028]  INFO -- : Acesso sem login com sucesso!
 I, [2019-06-19T17:48:47.636659 #12028]  INFO -- : Fim do Teste!
+I, [2019-06-19T17:54:23.244707 #12281]  INFO -- : Início do teste...
+I, [2019-06-19T17:54:23.246128 #12281]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-06-19T17:54:24.577322 #12281]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-06-19T17:54:24.820198 #12281]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-06-19T17:54:24.822191 #12281]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T17:54:26.597769 #12281]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-19T17:54:26.717264 #12281]  INFO -- : Acesso sem login com sucesso!
+I, [2019-06-19T17:54:27.730926 #12281]  INFO -- : Fim do Teste!

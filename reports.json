@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 23000
+              "duration": 22000
             }
           },
           {
@@ -36,7 +36,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 20000
+              "duration": 19000
             }
           },
           {
@@ -54,16 +54,16 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2998927000
+              "duration": 3253853000
             }
           },
           {
             "match": {
-              "location": "features/support/hooks.rb:10"
+              "location": "features/support/hooks.rb:11"
             },
             "result": {
               "status": "passed",
-              "duration": 37000
+              "duration": 51000
             }
           }
         ],
@@ -77,7 +77,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 723000
+              "duration": 1357000
             }
           },
           {
@@ -89,7 +89,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1591690000
+              "duration": 1575602000
             }
           },
           {
@@ -101,7 +101,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6106308000
+              "duration": 1895210000
             }
           }
         ],
@@ -111,8 +111,9 @@
               "location": "features/support/hooks.rb:5"
             },
             "result": {
-              "status": "passed",
-              "duration": 948135000
+              "status": "failed",
+              "error_message": "A session is either terminated or not started (Selenium::WebDriver::Error::InvalidSessionIdError)\nNoSuchDriverError: A session is either terminated or not started\n    at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:298:15)\n    at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:489:15)\n    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)\n    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:281:22\n    at param (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:354:14)\n    at param (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:365:14)\n    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:410:3)\n    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)\n    at logger (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/morgan/index.js:144:5)\n    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:317:13)\n    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:335:12)\n    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)\n    at jsonParser (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/body-parser/lib/types/json.js:110:7)\n    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:317:13)\n    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:335:12)\n    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)\n    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:91:12)\n    at trim_prefix (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:317:13)\n    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:335:12)\n    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)\n    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:91:12)\n    at trim_prefix (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:317:13)\n    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:335:12)\n    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)\n    at methodOverride (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/method-override/index.js:65:14)\n./features/support/appium_custom.rb:8:in `take_screenshot'\n./features/support/hooks.rb:8:in `After'",
+              "duration": 1030023000
             }
           },
           {
@@ -121,7 +122,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 23000
+              "duration": 322000
             }
           },
           {
@@ -130,7 +131,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 17000
+              "duration": 30000
             }
           }
         ]

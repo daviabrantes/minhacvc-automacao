@@ -90,8 +90,6 @@ class LoginPage
     if element_exists?(@mappings['label_nome_entrada']) 
       $ola_usuario = get_text @mappings['label_nome_entrada']
       expect($ola_usuario).to eq("Olá,")
-      binding.pry
-      take_screenshot
       $logger.info("Acesso sem login com sucesso!")
     else
       $logger.error('Acesso sem login não deu certo - erro!')
