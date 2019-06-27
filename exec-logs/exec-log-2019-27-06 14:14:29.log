@@ -1,0 +1,27 @@
+# Logfile created on 2019-06-27 14:14:29 -0300 by logger.rb/66358
+D, [2019-06-27T14:14:32.925640 #6343] DEBUG -- : Início do teste do cenário efetuar_login_com_sucesso...
+I, [2019-06-27T14:14:32.928007 #6343]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-27T14:14:34.431002 #6343]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-27T14:14:34.900593 #6343]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-27T14:14:41.820016 #6343]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-06-27T14:14:48.164780 #6343]  INFO -- : Preencheu o campo editTextPassword com o valor thi0927
+I, [2019-06-27T14:14:48.164964 #6343]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-27T14:14:48.713901 #6343]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-27T14:14:49.080171 #6343]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-27T14:14:49.082944 #6343]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-27T14:14:52.474243 #6343]  INFO -- : Loguei com sucesso - usuário frormm@gmail.com
+I, [2019-06-27T14:14:52.572739 #6343]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-27T14:15:00.523379 #6343]  INFO -- : Fim do Teste!
+D, [2019-06-27T14:15:05.481663 #6343] DEBUG -- : Início do teste do cenário efetuar_login_com_email_nao_cadastrado...
+I, [2019-06-27T14:15:20.676491 #6343]  INFO -- : Fim do Teste!
+D, [2019-06-27T14:15:26.378314 #6343] DEBUG -- : Início do teste do cenário efetuar_login_com_senha_incorreta...
+I, [2019-06-27T14:15:26.379293 #6343]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-27T14:15:27.721786 #6343]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-27T14:15:28.120196 #6343]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-27T14:15:34.734370 #6343]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-06-27T14:15:40.919833 #6343]  INFO -- : Preencheu o campo editTextPassword com o valor 123456
+I, [2019-06-27T14:15:40.919940 #6343]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-27T14:15:41.520079 #6343]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-27T14:15:41.875280 #6343]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-27T14:15:43.819371 #6343]  INFO -- : Está buscando o texto do elemento text_view_alert_title
+I, [2019-06-27T14:15:47.670828 #6343]  INFO -- : Fim do Teste!

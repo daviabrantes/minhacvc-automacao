@@ -8,16 +8,16 @@
     "line": 2,
     "elements": [
       {
-        "id": "login;efetuar-loginless-com-sucesso",
+        "id": "login;efetuar-login-com-sucesso",
         "keyword": "Cenário",
-        "name": "Efetuar loginless com sucesso",
+        "name": "Efetuar login com sucesso",
         "description": "",
-        "line": 28,
+        "line": 10,
         "type": "scenario",
         "tags": [
           {
-            "name": "@Loginless",
-            "line": 27
+            "name": "@Login",
+            "line": 9
           }
         ],
         "before": [
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 22000
+              "duration": 19000
             }
           },
           {
@@ -36,7 +36,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 19000
+              "duration": 18000
             }
           },
           {
@@ -54,7 +54,65 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3253853000
+              "duration": 3350265000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que estou na home de login",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 574000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "informar os dados de usuário válidos",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15516138000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "devo acessar a home logado com sucesso",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3891386000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2908521000
             }
           },
           {
@@ -63,57 +121,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 51000
-            }
-          }
-        ],
-        "steps": [
-          {
-            "keyword": "Dado ",
-            "name": "que estou na home de login",
-            "line": 29,
-            "match": {
-              "location": "features/step_definitions/login_steps.rb:3"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1357000
-            }
-          },
-          {
-            "keyword": "Quando ",
-            "name": "continuar sem login",
-            "line": 30,
-            "match": {
-              "location": "features/step_definitions/login_steps.rb:12"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1575602000
-            }
-          },
-          {
-            "keyword": "Então ",
-            "name": "devo acessar a home sem login com sucesso",
-            "line": 31,
-            "match": {
-              "location": "features/step_definitions/login_steps.rb:32"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1895210000
-            }
-          }
-        ],
-        "after": [
-          {
-            "match": {
-              "location": "features/support/hooks.rb:5"
-            },
-            "result": {
-              "status": "failed",
-              "error_message": "A session is either terminated or not started (Selenium::WebDriver::Error::InvalidSessionIdError)\nNoSuchDriverError: A session is either terminated or not started\n    at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:298:15)\n    at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:489:15)\n    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)\n    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:281:22\n    at param (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:354:14)\n    at param (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:365:14)\n    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:410:3)\n    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)\n    at logger (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/morgan/index.js:144:5)\n    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:317:13)\n    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:335:12)\n    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)\n    at jsonParser (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/body-parser/lib/types/json.js:110:7)\n    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:317:13)\n    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:335:12)\n    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)\n    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:91:12)\n    at trim_prefix (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:317:13)\n    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:335:12)\n    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)\n    at Layer.handle [as handle_request] (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/layer.js:91:12)\n    at trim_prefix (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:317:13)\n    at /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:335:12)\n    at next (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/express/lib/router/index.js:275:10)\n    at methodOverride (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/method-override/index.js:65:14)\n./features/support/appium_custom.rb:8:in `take_screenshot'\n./features/support/hooks.rb:8:in `After'",
-              "duration": 1030023000
+              "duration": 1188210000
             }
           },
           {
@@ -122,7 +130,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 322000
+              "duration": 1251000
             }
           },
           {
@@ -131,7 +139,281 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30000
+              "duration": 26000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;efetuar-login-com-email-nao-cadastrado",
+        "keyword": "Cenário",
+        "name": "Efetuar login com email nao cadastrado",
+        "description": "",
+        "line": 16,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 15
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4549765000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que estou na home de login",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1770000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "informar um email não cadastrado",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16438059000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "devo encontrar a mensagem de email ou senha incorretos",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1846029000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2511897000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1150132000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;efetuar-login-com-senha-incorreta",
+        "keyword": "Cenário",
+        "name": "Efetuar login com senha incorreta",
+        "description": "",
+        "line": 22,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 21
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4435898000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que estou na home de login",
+            "line": 23,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2807000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "informar uma senha incorreta",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15995805000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "devo encontrar a mensagem de email ou senha incorretos",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1948887000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2448801000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1201094000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22000
             }
           }
         ]

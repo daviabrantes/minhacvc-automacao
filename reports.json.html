@@ -34,20 +34,47 @@
 </div>
 </header>
 <div id="g0f0s0" class="modal modal-fixed-footer">
-<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@Loginless</div><h5>Efetuar loginless com sucesso (11.646s)</h5>
-features/login.feature:28
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@Login</div><h5>Efetuar login com sucesso (31.083s)</h5>
+features/login.feature:10
+<ul class="collection stepList"><li class="collection-item step passed">
+<b>Dado </b> que estou na home de login (0.002s)</li>
+<li class="collection-item step passed">
+<b>Quando </b> informar os dados de usuário válidos (16.154s)</li>
+<li class="collection-item step passed">
+<b>Então </b> devo acessar a home logado com sucesso (3.596s)</li>
+</ul>
+</div><div class="modal-footer">
+<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+</div>
+</div><div id="g0f0s1" class="modal modal-fixed-footer">
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@Login</div><h5>Efetuar login com email nao cadastrado (20.139s)</h5>
+features/login.feature:16
+<ul class="collection stepList"><li class="collection-item step passed">
+<b>Dado </b> que estou na home de login (0.001s)</li>
+<li class="collection-item step undefined">
+<b>Quando </b> informar um email não cadastrado (0.000s)</li>
+<li class="collection-item step skipped">
+<b>Então </b> devo encontrar a mensagem de email ou senha incorretos (0.000s)</li>
+</ul>
+</div><div class="modal-footer">
+<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+</div>
+</div><div id="g0f0s2" class="modal modal-fixed-footer">
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@Login</div><h5>Efetuar login com senha incorreta (26.978s)</h5>
+features/login.feature:22
 <ul class="collection stepList"><li class="collection-item step passed">
 <b>Dado </b> que estou na home de login (0.001s)</li>
 <li class="collection-item step passed">
-<b>Quando </b> continuar sem login (1.592s)</li>
+<b>Quando </b> informar uma senha incorreta (15.496s)</li>
 <li class="collection-item step passed">
-<b>Então </b> devo acessar a home sem login com sucesso (6.106s)</li>
-</ul></div><div class="modal-footer">
+<b>Então </b> devo encontrar a mensagem de email ou senha incorretos (2.048s)</li>
+</ul>
+</div><div class="modal-footer">
 <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
 </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function () {$('#g0f0s0').modal();$('#g0f0s1').modal();});
+$(document).ready(function () {$('#g0f0s0').modal();$('#g0f0s1').modal();$('#g0f0s2').modal();$('#g0f0s3').modal();});
 </script>
 <main class="brown lighten-5">
 <div class="row"><div id="overview" class="col s12 brown lighten-5">
@@ -65,7 +92,7 @@ $(document).ready(function () {$('#g0f0s0').modal();$('#g0f0s1').modal();});
 </div><div class="col m4 s12">
 <table id="metaData" class="bordered">
 <tbody>
-<tr><th>Total Time</th><td>11.646s</td></tr><tr>
+<tr><th>Total Time</th><td>1m 18.20s</td></tr><tr>
 <th>Project name</th>
 <td>Minha CVC</td>
 </tr><tr>
@@ -73,20 +100,28 @@ $(document).ready(function () {$('#g0f0s0').modal();$('#g0f0s1').modal();});
 <td>android</td>
 </tr><tr>
 <th>Report generated</th>
-<td>2019-06-19 20:54:19 UTC</td>
+<td>2019-27-06 14:20:14</td>
 </tr></tbody>
 </table>
 </div>
 </div></div><div id="features" class="col s12 brown lighten-5 white-text">
 <ul class="featureList collapsible popout" data-collapsible="expandable">
-<li class="feature working">
+<li class="feature incomplete">
 <div class="collapsible-header brown lighten-1 waves-effect waves-light">
 <i class="material-icons">featured_play_list</i>
-<b>Funcionalidade</b>&nbsp;Login&nbsp;(11.646s)
+<b>Funcionalidade</b>&nbsp;Login&nbsp;(1m 18.20s)
 </div><div class="collapsible-body brown lighten-4">
 <ul class="collection scenarioList"><li class="collection-item scenario passed">
 <a class="waves-effect waves-light modal-trigger white-text" href="#g0f0s0">
-<b>Cenário</b> Efetuar loginless com sucesso&nbsp;(11.646s)
+<b>Cenário</b> Efetuar login com sucesso&nbsp;(31.083s)
+</a>
+</li><li class="collection-item scenario undefined">
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f0s1">
+<b>Cenário</b> Efetuar login com email nao cadastrado&nbsp;(20.139s)
+</a>
+</li><li class="collection-item scenario passed">
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f0s2">
+<b>Cenário</b> Efetuar login com senha incorreta&nbsp;(26.978s)
 </a>
 </li></ul>
 </div>
@@ -106,9 +141,29 @@ $(document).ready(function () {$('#g0f0s0').modal();$('#g0f0s1').modal();});
 <td class="hide-on-small-only">
 Login
 </td><td class="hoverable">
-<a class="modal-trigger white-text" href="#g0f0s0">Efetuar loginless com sucesso</a>
+<a class="modal-trigger white-text" href="#g0f0s0">Efetuar login com sucesso</a>
 </td><td class="hide">
-@Loginless. 
+@Login. 
+</td><td class="uppercase">
+passed
+</td><td class="hide-on-small-only"></td></tr>
+<tr class="undefined">
+<td class="hide-on-small-only">
+Login
+</td><td class="hoverable">
+<a class="modal-trigger white-text" href="#g0f0s1">Efetuar login com email nao cadastrado</a>
+</td><td class="hide">
+@Login. 
+</td><td class="uppercase">
+undefined
+</td><td class="hide-on-small-only"></td></tr>
+<tr class="passed">
+<td class="hide-on-small-only">
+Login
+</td><td class="hoverable">
+<a class="modal-trigger white-text" href="#g0f0s2">Efetuar login com senha incorreta</a>
+</td><td class="hide">
+@Login. 
 </td><td class="uppercase">
 passed
 </td><td class="hide-on-small-only"></td></tr>

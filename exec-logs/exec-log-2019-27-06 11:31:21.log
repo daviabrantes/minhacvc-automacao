@@ -1,0 +1,15 @@
+# Logfile created on 2019-06-27 11:31:21 -0300 by logger.rb/66358
+D, [2019-06-27T11:31:24.211550 #4371] DEBUG -- : Início do teste do cenário efetuar_cadastro_com_sucesso...
+I, [2019-06-27T11:31:24.213508 #4371]  INFO -- : Verificando se existe o elemento buttonSignUp
+I, [2019-06-27T11:31:25.514111 #4371]  INFO -- : Aguardou a existência do elemento buttonSignUp
+I, [2019-06-27T11:31:25.865099 #4371]  INFO -- : Clicou no botão buttonSignUp
+I, [2019-06-27T11:31:32.650337 #4371]  INFO -- : Preencheu o campo fullNameEditText com o valor Diogo
+I, [2019-06-27T11:31:38.968044 #4371]  INFO -- : Preencheu o campo sign_up_edit_cpf com o valor 77814323207
+I, [2019-06-27T11:31:45.768910 #4371]  INFO -- : Preencheu o campo sign_up_edit_birthday com o valor 17111971
+I, [2019-06-27T11:31:52.320540 #4371]  INFO -- : Preencheu o campo emailEditText com o valor maybell.runte@hotmail.com
+I, [2019-06-27T11:31:58.585260 #4371]  INFO -- : Preencheu o campo passwordEditText com o valor Senha123!
+I, [2019-06-27T11:31:59.188328 #4371]  INFO -- : Verificando se existe o elemento sendButton
+I, [2019-06-27T11:31:59.873915 #4371]  INFO -- : Aguardou a existência do elemento sendButton
+I, [2019-06-27T11:32:00.036623 #4371]  INFO -- : Clicou no botão sendButton
+I, [2019-06-27T11:32:00.038565 #4371]  INFO -- : Verificando se existe o elemento 
+I, [2019-06-27T11:32:01.156028 #4371]  INFO -- : Fim do Teste!

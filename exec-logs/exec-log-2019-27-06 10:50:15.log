@@ -1,0 +1,4 @@
+# Logfile created on 2019-06-27 10:50:15 -0300 by logger.rb/66358
+D, [2019-06-27T10:50:19.076921 #3080] DEBUG -- : Início do teste do cenário efetuar_cadastro_com_sucesso...
+I, [2019-06-27T10:50:19.079558 #3080]  INFO -- : Verificando se existe o elemento 
+I, [2019-06-27T10:50:20.137608 #3080]  INFO -- : Fim do Teste!

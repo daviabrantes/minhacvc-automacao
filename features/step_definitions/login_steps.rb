@@ -2,7 +2,7 @@
 
 Dado("que estou na home de login") do
     $login_page = LoginPage.new
-    $logger.info('Início do teste...')
+    $logger.debug("Início do teste do cenário #{$scenario}...")
 end
   
 Quando("informar os dados de usuário válidos") do
@@ -14,31 +14,29 @@ Quando("continuar sem login") do
 end
   
 Quando("cadastrar os dados de usuário válidos") do
-    $login_page.cadastrarUsuario
+    $login_page.cadastrar_usuario
 end
 
 Quando("informar um email não cadastrado") do
-    $login_page.loginErroEmail
+    $login_page.login_erro_email
 end
 
 Quando("informar uma senha incorreta") do
-    $login_page.loginErroSenha
+    $login_page.login_erro_senha
 end
 
 Então("devo acessar a home logado com sucesso") do
-    $login_page.assertLogin
+    $login_page.assert_login
 end 
 
 Então("devo acessar a home sem login com sucesso") do
-    $login_page.assertLoginless
+    $login_page.assert_loginless
 end
-
-Então("devo acessar a home cadastrado com sucesso") do
-    $login_page.assertCadastro
-end 
 
 Então("devo encontrar a mensagem de email ou senha incorretos") do
-    $login_page.assertLoginErro
+    $login_page.assert_login_erro
 end
+
+
 
 

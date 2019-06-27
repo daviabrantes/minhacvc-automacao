@@ -12,17 +12,6 @@ android:
   link_esqueci_senha:         'textViewResetPassword'
   link_cadastro:              'textViewSignUp'
   label_email_senha_erro:     'text_view_alert_title'
-  #Tela Cadastro
-  text_nome_completo:         'fullNameEditText'
-  text_cpf:                   'sign_up_edit_cpf'
-  text_data_nascimento:       'sign_up_edit_birthday'
-  text_senha_cadastro:        'passwordEditText'
-  link_politica_seguranca:    'privacyPolicyTextView'
-  button_continuar:           'sendButton'
-  #Tela Usuario Cadastrado
-  label_email_cadastrado:     'signUpEmail'
-  label_cadastro_realizado:   'title'
-  button_entrar_cadastro:     'buttonOk'
 
 ios:
   #Tela Inicial
@@ -37,10 +26,3 @@ ios:
   text_senha:                 'editTextPassword'
   link_esqueci_senha:         'textViewResetPassword'
   link_cadastro:              'textViewSignUp'
-  #Tela Cadastro
-  text_nome_completo:         'fullNameEditText'
-  text_cpf:                   'sign_up_edit_cpf'
-  text_data_nascimento:       'sign_up_edit_birthday'
-  text_senha_cadastro:        'passwordEditText'
-  link_politica_seguranca:    'privacyPolicyTextView'
-  button_continuar:           'sendButton'

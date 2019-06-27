@@ -5,7 +5,20 @@
   end
 
   def take_screenshot
-    $driver.screenshot("screenshots/#{$env}/#{$scenario}_#{$time}.png")
+    $driver.screenshot("screenshots/#{$env}/#{$scenario}_#{$executionTime}.png")
+  end
+
+  def gerar_data
+    dia = rand(01..28)
+      if dia < 10
+      dia = '0' + dia.to_s
+      end
+    mes = rand(01..12)
+      if mes < 10
+        mes = '0' + mes.to_s
+      end
+    ano = rand(1930..2000)
+    $data = dia.to_s + mes.to_s + ano.to_s
   end
 
   def swipe_down

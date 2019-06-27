@@ -1,0 +1,36 @@
+# Logfile created on 2019-06-27 14:20:14 -0300 by logger.rb/66358
+D, [2019-06-27T14:20:17.743802 #6621] DEBUG -- : Início do teste do cenário efetuar_login_com_sucesso...
+I, [2019-06-27T14:20:17.745117 #6621]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-27T14:20:19.044351 #6621]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-27T14:20:19.530127 #6621]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-27T14:20:25.937333 #6621]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-06-27T14:20:32.200773 #6621]  INFO -- : Preencheu o campo editTextPassword com o valor thi0927
+I, [2019-06-27T14:20:32.200874 #6621]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-27T14:20:32.900174 #6621]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-27T14:20:33.259567 #6621]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-27T14:20:33.262694 #6621]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-27T14:20:34.404415 #6621]  INFO -- : Loguei com sucesso - usuário frormm@gmail.com
+I, [2019-06-27T14:20:37.001790 #6621]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-06-27T14:20:41.253057 #6621]  INFO -- : Fim do Teste!
+D, [2019-06-27T14:20:45.811367 #6621] DEBUG -- : Início do teste do cenário efetuar_login_com_email_nao_cadastrado...
+I, [2019-06-27T14:20:45.813572 #6621]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-27T14:20:47.350682 #6621]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-27T14:20:48.008742 #6621]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-27T14:20:55.048749 #6621]  INFO -- : Preencheu o campo emailEditText com o valor teste@descubra.com
+I, [2019-06-27T14:21:01.260171 #6621]  INFO -- : Preencheu o campo editTextPassword com o valor thi0927
+I, [2019-06-27T14:21:01.260316 #6621]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-27T14:21:01.898400 #6621]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-27T14:21:02.251389 #6621]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-27T14:21:03.997898 #6621]  INFO -- : Está buscando o texto do elemento text_view_alert_title
+I, [2019-06-27T14:21:07.760889 #6621]  INFO -- : Fim do Teste!
+D, [2019-06-27T14:21:12.199828 #6621] DEBUG -- : Início do teste do cenário efetuar_login_com_senha_incorreta...
+I, [2019-06-27T14:21:12.202807 #6621]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-27T14:21:13.448892 #6621]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-27T14:21:13.898130 #6621]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-27T14:21:20.898013 #6621]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-06-27T14:21:27.209704 #6621]  INFO -- : Preencheu o campo editTextPassword com o valor 123456
+I, [2019-06-27T14:21:27.210157 #6621]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-27T14:21:27.847046 #6621]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-27T14:21:28.198408 #6621]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-27T14:21:30.047003 #6621]  INFO -- : Está buscando o texto do elemento text_view_alert_title
+I, [2019-06-27T14:21:33.798677 #6621]  INFO -- : Fim do Teste!

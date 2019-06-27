@@ -1,0 +1,18 @@
+# Logfile created on 2019-06-27 14:12:36 -0300 by logger.rb/66358
+D, [2019-06-27T14:12:41.793530 #6212] DEBUG -- : Início do teste do cenário efetuar_cadastro_com_sucesso...
+I, [2019-06-27T14:12:41.795941 #6212]  INFO -- : Verificando se existe o elemento buttonSignUp
+I, [2019-06-27T14:12:43.079461 #6212]  INFO -- : Aguardou a existência do elemento buttonSignUp
+I, [2019-06-27T14:12:43.529355 #6212]  INFO -- : Clicou no botão buttonSignUp
+I, [2019-06-27T14:12:50.082680 #6212]  INFO -- : Preencheu o campo fullNameEditText com o valor Juliana
+I, [2019-06-27T14:12:56.441112 #6212]  INFO -- : Preencheu o campo sign_up_edit_cpf com o valor 51409170926
+I, [2019-06-27T14:13:03.034816 #6212]  INFO -- : Preencheu o campo sign_up_edit_birthday com o valor 21121930
+I, [2019-06-27T14:13:09.684646 #6212]  INFO -- : Preencheu o campo emailEditText com o valor whitley_cole@gmail.com
+I, [2019-06-27T14:13:16.035843 #6212]  INFO -- : Preencheu o campo passwordEditText com o valor Senha123!
+I, [2019-06-27T14:13:16.635568 #6212]  INFO -- : Verificando se existe o elemento sendButton
+I, [2019-06-27T14:13:17.285234 #6212]  INFO -- : Aguardou a existência do elemento sendButton
+I, [2019-06-27T14:13:17.490290 #6212]  INFO -- : Clicou no botão sendButton
+I, [2019-06-27T14:13:17.490972 #6212]  INFO -- : Verificando se existe o elemento signUpEmail
+I, [2019-06-27T14:13:19.498013 #6212]  INFO -- : Cadastrei usuário com sucesso - Email: whitley_cole@gmail.com - Senha: Senha123!
+I, [2019-06-27T14:13:19.597155 #6212]  INFO -- : Está buscando o texto do elemento signUpEmail
+I, [2019-06-27T14:13:19.797414 #6212]  INFO -- : Está buscando o texto do elemento title
+I, [2019-06-27T14:13:23.786895 #6212]  INFO -- : Fim do Teste!

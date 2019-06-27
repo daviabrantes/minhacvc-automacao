@@ -13,7 +13,7 @@ Quando informar os dados de usuário válidos
 Então devo acessar a home logado com sucesso
 
 @Login
-Cenário: Efetuar login com email não cadastrado
+Cenário: Efetuar login com email nao cadastrado
 Dado que estou na home de login
 Quando informar um email não cadastrado
 Então devo encontrar a mensagem de email ou senha incorretos

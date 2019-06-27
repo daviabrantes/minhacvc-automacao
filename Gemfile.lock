@@ -42,6 +42,7 @@ GEM
     chronic_duration (0.10.6)
       numerizer (~> 0.1.1)
     coderay (1.1.2)
+    colorize (0.8.1)
     cucumber (2.4.0)
       builder (>= 2.1.2)
       cucumber-core (~> 1.5.0)
@@ -148,6 +149,7 @@ DEPENDENCIES
   appium_lib
   capybara
   capybara-screenshot
+  colorize
   cucumber (= 2.4.0)
   ffaker
   rake
@@ -161,4 +163,4 @@ DEPENDENCIES
   yard-cucumber
 
 BUNDLED WITH
-   2.0.1
+   2.0.2

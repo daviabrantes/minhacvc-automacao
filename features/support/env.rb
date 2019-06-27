@@ -10,19 +10,20 @@ require 'report_builder'
 require 'capybara/cucumber'
 require 'capybara-screenshot/cucumber'
 require 'base64'
+require 'colorize'
 require_relative '../pageobjects/login_page.rb'
+require_relative '../pageobjects/cadastro_page.rb'
 
 class AppiumWorld
 end
 
-time  = Time.new
-time = time.strftime('%d-%m-%Y')
-$logger = Logger.new("./exec-logs/exec-log-#{time}.log")
+$executionTime  = Time.new
+$executionTime = $executionTime.strftime('%Y-%d-%m %H:%M:%S')
+$env = ENV['PLATFORM'].downcase
+$logger = Logger.new("./exec-logs/exec-log-#{$executionTime}.log")
 
 if ENV['PLATFORM'].nil?
     raise 'Voce tem que definir se é iOS ou Android'
-else
-    $env = ENV['PLATFORM'].downcase
 end
 
 case $env
