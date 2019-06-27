@@ -1,0 +1,34 @@
+# Logfile created on 2019-06-27 16:32:34 -0300 by logger.rb/66358
+D, [2019-06-27T16:32:37.931484 #10506] DEBUG -- : Início do teste do cenário recuperar_senha...
+I, [2019-06-27T16:32:37.933503 #10506]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-06-27T16:32:38.686776 #10506]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-06-27T16:32:39.684971 #10506]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-06-27T16:32:39.974867 #10506]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-06-27T16:32:40.259937 #10506]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-06-27T16:32:40.544325 #10506]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-06-27T16:32:40.824949 #10506]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-06-27T16:32:41.100977 #10506]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-06-27T16:32:41.395795 #10506]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-06-27T16:32:41.694864 #10506]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-06-27T16:32:41.978448 #10506]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-06-27T16:32:42.261623 #10506]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-06-27T16:32:42.552766 #10506]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-06-27T16:32:42.842993 #10506]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-06-27T16:32:43.124057 #10506]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-06-27T16:32:43.399681 #10506]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-06-27T16:32:43.689910 #10506]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-06-27T16:32:43.979320 #10506]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-06-27T16:32:44.259361 #10506]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-06-27T16:32:44.551326 #10506]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-06-27T16:32:44.831750 #10506]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-06-27T16:32:45.119424 #10506]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-06-27T16:32:45.405013 #10506]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-06-27T16:32:45.699528 #10506]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-06-27T16:32:45.989196 #10506]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-06-27T16:32:46.257930 #10506]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-06-27T16:32:46.546440 #10506]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-06-27T16:32:46.828826 #10506]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-06-27T16:32:47.090306 #10506]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-06-27T16:32:47.380652 #10506]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-06-27T16:32:47.672573 #10506]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-06-27T16:33:00.721297 #10506]  INFO -- : Fim do Teste!

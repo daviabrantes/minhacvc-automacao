@@ -1,9 +1,0 @@
-# Logfile created on 2019-06-27 11:06:49 -0300 by logger.rb/66358
-D, [2019-06-27T11:06:53.231973 #3789] DEBUG -- : Início do teste do cenário efetuar_cadastro_com_sucesso...
-I, [2019-06-27T11:06:53.233861 #3789]  INFO -- : Verificando se existe o elemento buttonSignUp
-I, [2019-06-27T11:06:54.810141 #3789]  INFO -- : Aguardou a existência do elemento buttonSignUp
-I, [2019-06-27T11:06:55.225040 #3789]  INFO -- : Clicou no botão buttonSignUp
-I, [2019-06-27T11:07:01.900854 #3789]  INFO -- : Preencheu o campo fullNameEditText com o valor Lília
-I, [2019-06-27T11:07:08.176539 #3789]  INFO -- : Preencheu o campo sign_up_edit_cpf com o valor 77357093581
-I, [2019-06-27T11:07:14.728672 #3789]  INFO -- : Preencheu o campo sign_up_edit_birthday com o valor 12091967
-I, [2019-06-27T11:07:15.649188 #3789]  INFO -- : Fim do Teste!

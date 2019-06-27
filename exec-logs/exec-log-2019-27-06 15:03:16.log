@@ -1,0 +1,18 @@
+# Logfile created on 2019-06-27 15:03:16 -0300 by logger.rb/66358
+D, [2019-06-27T15:03:20.681887 #7565] DEBUG -- : Início do teste do cenário efetuar_login_com_sucesso...
+I, [2019-06-27T15:03:20.684637 #7565]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-27T15:03:21.397639 #7565]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-27T15:03:22.167062 #7565]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-27T15:03:22.505802 #7565]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-27T15:03:25.301810 #7565]  INFO -- : Fim do Teste!
+D, [2019-06-27T15:03:28.250606 #7565] DEBUG -- : Início do teste do cenário efetuar_login_com_email_nao_cadastrado...
+I, [2019-06-27T15:03:28.252036 #7565]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-27T15:03:29.577048 #7565]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-27T15:03:29.964984 #7565]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-27T15:03:36.899654 #7565]  INFO -- : Preencheu o campo emailEditText com o valor teste@descubra.com
+I, [2019-06-27T15:03:38.757240 #7565]  INFO -- : Fim do Teste!
+D, [2019-06-27T15:03:41.788460 #7565] DEBUG -- : Início do teste do cenário efetuar_login_com_senha_incorreta...
+I, [2019-06-27T15:03:41.789210 #7565]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-27T15:03:43.131223 #7565]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-27T15:03:43.452348 #7565]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-27T15:03:46.333923 #7565]  INFO -- : Fim do Teste!

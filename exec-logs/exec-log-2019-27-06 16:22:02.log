@@ -1,0 +1,15 @@
+# Logfile created on 2019-06-27 16:22:02 -0300 by logger.rb/66358
+D, [2019-06-27T16:22:07.170153 #9874] DEBUG -- : Início do teste do cenário efetuar_cadastro_com_sucesso...
+I, [2019-06-27T16:22:07.172810 #9874]  INFO -- : Verificando se existe o elemento buttonSignUp
+I, [2019-06-27T16:22:08.519758 #9874]  INFO -- : Aguardou a existência do elemento buttonSignUp
+I, [2019-06-27T16:22:08.873775 #9874]  INFO -- : Clicou no botão buttonSignUp
+I, [2019-06-27T16:22:15.058828 #9874]  INFO -- : Preencheu o campo fullNameEditText com o valor Sérgio
+I, [2019-06-27T16:22:20.915372 #9874]  INFO -- : Preencheu o campo sign_up_edit_cpf com o valor 34784594604
+I, [2019-06-27T16:22:27.365267 #9874]  INFO -- : Preencheu o campo sign_up_edit_birthday com o valor 19101963
+I, [2019-06-27T16:22:33.895588 #9874]  INFO -- : Preencheu o campo emailEditText com o valor argentina@gmail.com
+I, [2019-06-27T16:22:40.542874 #9874]  INFO -- : Preencheu o campo passwordEditText com o valor Senha123!
+I, [2019-06-27T16:22:41.157312 #9874]  INFO -- : Verificando se existe o elemento sendButton
+I, [2019-06-27T16:22:41.841067 #9874]  INFO -- : Aguardou a existência do elemento sendButton
+I, [2019-06-27T16:22:44.992493 #9874]  INFO -- : Clicou no botão sendButton
+I, [2019-06-27T16:22:44.993151 #9874]  INFO -- : Verificando se existe o elemento signUpEmail
+I, [2019-06-27T16:22:45.208981 #9874]  INFO -- : Cadastrei usuário com sucesso - Email: argentina@gmail.com - Senha: Senha123!

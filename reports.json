@@ -8,16 +8,16 @@
     "line": 2,
     "elements": [
       {
-        "id": "login;efetuar-login-com-sucesso",
+        "id": "login;esqueci-senha",
         "keyword": "Cenário",
-        "name": "Efetuar login com sucesso",
+        "name": "Esqueci senha",
         "description": "",
-        "line": 10,
+        "line": 34,
         "type": "scenario",
         "tags": [
           {
-            "name": "@Login",
-            "line": 9
+            "name": "@EsqueciSenha",
+            "line": 33
           }
         ],
         "before": [
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 19000
+              "duration": 22000
             }
           },
           {
@@ -36,7 +36,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 18000
+              "duration": 23000
             }
           },
           {
@@ -45,7 +45,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 9000
+              "duration": 22000
             }
           },
           {
@@ -54,7 +54,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3350265000
+              "duration": 3232567000
             }
           },
           {
@@ -71,174 +71,49 @@
           {
             "keyword": "Dado ",
             "name": "que estou na home de login",
-            "line": 11,
+            "line": 35,
             "match": {
               "location": "features/step_definitions/login_steps.rb:3"
             },
             "result": {
               "status": "passed",
-              "duration": 574000
+              "duration": 825000
             }
           },
           {
             "keyword": "Quando ",
-            "name": "informar os dados de usuário válidos",
-            "line": 12,
+            "name": "eu clicar no botão de esqueci minha senha",
+            "line": 36,
             "match": {
-              "location": "features/step_definitions/login_steps.rb:8"
+              "location": "features/step_definitions/login_steps.rb:24"
             },
             "result": {
               "status": "passed",
-              "duration": 15516138000
+              "duration": 2424984000
             }
           },
           {
-            "keyword": "Então ",
-            "name": "devo acessar a home logado com sucesso",
-            "line": 13,
+            "keyword": "E ",
+            "name": "preencher os dados para recuperar minha senha",
+            "line": 37,
             "match": {
               "location": "features/step_definitions/login_steps.rb:28"
             },
             "result": {
               "status": "passed",
-              "duration": 3891386000
-            }
-          }
-        ],
-        "after": [
-          {
-            "match": {
-              "location": "features/support/hooks.rb:16"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2908521000
-            }
-          },
-          {
-            "match": {
-              "location": "features/support/hooks.rb:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1188210000
-            }
-          },
-          {
-            "match": {
-              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:7"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1251000
-            }
-          },
-          {
-            "match": {
-              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 26000
-            }
-          }
-        ]
-      },
-      {
-        "id": "login;efetuar-login-com-email-nao-cadastrado",
-        "keyword": "Cenário",
-        "name": "Efetuar login com email nao cadastrado",
-        "description": "",
-        "line": 16,
-        "type": "scenario",
-        "tags": [
-          {
-            "name": "@Login",
-            "line": 15
-          }
-        ],
-        "before": [
-          {
-            "match": {
-              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 20000
-            }
-          },
-          {
-            "match": {
-              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 19000
-            }
-          },
-          {
-            "match": {
-              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:3"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 10000
-            }
-          },
-          {
-            "match": {
-              "location": "features/support/hooks.rb:1"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 4549765000
-            }
-          },
-          {
-            "match": {
-              "location": "features/support/hooks.rb:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 37000
-            }
-          }
-        ],
-        "steps": [
-          {
-            "keyword": "Dado ",
-            "name": "que estou na home de login",
-            "line": 17,
-            "match": {
-              "location": "features/step_definitions/login_steps.rb:3"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1770000
-            }
-          },
-          {
-            "keyword": "Quando ",
-            "name": "informar um email não cadastrado",
-            "line": 18,
-            "match": {
-              "location": "features/step_definitions/login_steps.rb:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 16438059000
+              "duration": 13663598000
             }
           },
           {
             "keyword": "Então ",
-            "name": "devo encontrar a mensagem de email ou senha incorretos",
-            "line": 19,
+            "name": "devem ser enviadas instruções por email",
+            "line": 38,
             "match": {
-              "location": "features/step_definitions/login_steps.rb:36"
+              "location": "features/step_definitions/login_steps.rb:44"
             },
             "result": {
               "status": "passed",
-              "duration": 1846029000
+              "duration": 2343013000
             }
           }
         ],
@@ -249,7 +124,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2511897000
+              "duration": 784607000
             }
           },
           {
@@ -258,7 +133,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1150132000
+              "duration": 879821000
             }
           },
           {
@@ -276,144 +151,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15000
-            }
-          }
-        ]
-      },
-      {
-        "id": "login;efetuar-login-com-senha-incorreta",
-        "keyword": "Cenário",
-        "name": "Efetuar login com senha incorreta",
-        "description": "",
-        "line": 22,
-        "type": "scenario",
-        "tags": [
-          {
-            "name": "@Login",
-            "line": 21
-          }
-        ],
-        "before": [
-          {
-            "match": {
-              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 23000
-            }
-          },
-          {
-            "match": {
-              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 21000
-            }
-          },
-          {
-            "match": {
-              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:3"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 9000
-            }
-          },
-          {
-            "match": {
-              "location": "features/support/hooks.rb:1"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 4435898000
-            }
-          },
-          {
-            "match": {
-              "location": "features/support/hooks.rb:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 53000
-            }
-          }
-        ],
-        "steps": [
-          {
-            "keyword": "Dado ",
-            "name": "que estou na home de login",
-            "line": 23,
-            "match": {
-              "location": "features/step_definitions/login_steps.rb:3"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2807000
-            }
-          },
-          {
-            "keyword": "Quando ",
-            "name": "informar uma senha incorreta",
-            "line": 24,
-            "match": {
-              "location": "features/step_definitions/login_steps.rb:24"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 15995805000
-            }
-          },
-          {
-            "keyword": "Então ",
-            "name": "devo encontrar a mensagem de email ou senha incorretos",
-            "line": 25,
-            "match": {
-              "location": "features/step_definitions/login_steps.rb:36"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1948887000
-            }
-          }
-        ],
-        "after": [
-          {
-            "match": {
-              "location": "features/support/hooks.rb:16"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2448801000
-            }
-          },
-          {
-            "match": {
-              "location": "features/support/hooks.rb:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1201094000
-            }
-          },
-          {
-            "match": {
-              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:7"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 26000
-            }
-          },
-          {
-            "match": {
-              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 22000
+              "duration": 17000
             }
           }
         ]

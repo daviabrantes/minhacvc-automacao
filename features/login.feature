@@ -30,6 +30,13 @@ Dado que estou na home de login
 Quando continuar sem login
 Então devo acessar a home sem login com sucesso
 
+@EsqueciSenha
+Cenário: Esqueci senha
+Dado que estou na home de login
+Quando eu clicar no botão de esqueci minha senha
+E preencher os dados para recuperar minha senha
+Então devem ser enviadas instruções por email
+
 @Cadastro
 Cenário: Efetuar cadastro com sucesso
 Dado que estou na home de login

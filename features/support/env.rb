@@ -65,5 +65,3 @@ Appium.promote_appium_methods Object
 World do
     AppiumWorld.new
 end
-  
-Massa = YAML.load_file("features/support/massa.yaml")

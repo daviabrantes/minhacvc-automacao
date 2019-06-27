@@ -12,6 +12,14 @@ android:
   link_esqueci_senha:         'textViewResetPassword'
   link_cadastro:              'textViewSignUp'
   label_email_senha_erro:     'text_view_alert_title'
+  #Esqueci Senha
+  text_cpf:                   'sign_up_edit_cpf'
+  text_email:                 'emailEditText'
+  button_enviar:              'sendButton'
+  label_senha_enviada:        'title'
+  label_email_instrucoes:     'subtitle'
+  button_ir_login:            'buttonOk'
+
 
 ios:
   #Tela Inicial
@@ -26,3 +34,11 @@ ios:
   text_senha:                 'editTextPassword'
   link_esqueci_senha:         'textViewResetPassword'
   link_cadastro:              'textViewSignUp'
+  label_email_senha_erro:     'text_view_alert_title'
+  #Esqueci Senha
+  text_cpf:                   'sign_up_edit_cpf'
+  text_email:                 'emailEditText'
+  button_enviar:              'sendButton'
+  label_senha_enviada:        'title'
+  label_email_instrucoes:     'subtitle'
+  button_ir_login:            'buttonOk'

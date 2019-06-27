@@ -1,0 +1,15 @@
+# Logfile created on 2019-06-27 16:34:02 -0300 by logger.rb/66358
+D, [2019-06-27T16:34:05.748212 #10674] DEBUG -- : Início do teste do cenário recuperar_senha...
+I, [2019-06-27T16:34:05.749856 #10674]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-27T16:34:06.462267 #10674]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-27T16:34:07.260669 #10674]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-27T16:34:07.589845 #10674]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-27T16:34:07.589940 #10674]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-06-27T16:34:08.129314 #10674]  INFO -- : Aguardou a existência do elemento textViewResetPassword
+I, [2019-06-27T16:34:08.364246 #10674]  INFO -- : Clicou no botão textViewResetPassword
+I, [2019-06-27T16:34:14.788672 #10674]  INFO -- : Preencheu o campo sign_up_edit_cpf com o valor 47169855127
+I, [2019-06-27T16:34:21.186005 #10674]  INFO -- : Preencheu o campo emailEditText com o valor buck.bednar@hotmail.com
+I, [2019-06-27T16:34:21.186118 #10674]  INFO -- : Verificando se existe o elemento sendButton
+I, [2019-06-27T16:34:21.789897 #10674]  INFO -- : Aguardou a existência do elemento sendButton
+I, [2019-06-27T16:34:22.013681 #10674]  INFO -- : Clicou no botão sendButton
+I, [2019-06-27T16:34:24.316564 #10674]  INFO -- : Fim do Teste!
