@@ -1,0 +1,425 @@
+[
+  {
+    "uri": "features/login.feature",
+    "id": "login",
+    "keyword": "Funcionalidade",
+    "name": "Login",
+    "description": "A tela de login possuí os campos email e senha (email sem restrição de domínio)\nA senha a princípio seria de (4 a 8 dígitos a confirmar)\nA tela de login possuí também um link de esqueci minha senha e cadastra-se\nA tela de login possuí um botão de entrar",
+    "line": 2,
+    "elements": [
+      {
+        "id": "login;efetuar-login-com-sucesso",
+        "keyword": "Cenário",
+        "name": "Efetuar login com sucesso",
+        "description": "",
+        "line": 10,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 9
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3491647000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que estou na home de login",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1880000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "informar os dados de usuário válidos",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15956828000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "devo acessar a home logado com sucesso",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3387566000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1251429000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 919230000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;efetuar-login-com-email-nao-cadastrado",
+        "keyword": "Cenário",
+        "name": "Efetuar login com email nao cadastrado",
+        "description": "",
+        "line": 16,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 15
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3165547000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que estou na home de login",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 813000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "informar um email não cadastrado",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16167142000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "devo encontrar a mensagem de email ou senha incorretos",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:40"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "\nexpected: \"eE-mail ou senha incorretos.\"\n     got: \"E-mail ou senha incorretos.\"\n\n(compared using ==)\n (RSpec::Expectations::ExpectationNotMetError)\n./features/pageobjects/login_page.rb:98:in `assert_login_erro'\n./features/step_definitions/login_steps.rb:41:in `/^devo\\ encontrar\\ a\\ mensagem\\ de\\ email\\ ou\\ senha\\ incorretos$/'\nfeatures/login.feature:19:in `Então devo encontrar a mensagem de email ou senha incorretos'",
+              "duration": 2121654000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2975906000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1287554000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 283000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;efetuar-login-com-senha-incorreta",
+        "keyword": "Cenário",
+        "name": "Efetuar login com senha incorreta",
+        "description": "",
+        "line": 22,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 21
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4296296000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que estou na home de login",
+            "line": 23,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1080000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "informar uma senha incorreta",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15745318000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "devo encontrar a mensagem de email ou senha incorretos",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:40"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "\nexpected: \"eE-mail ou senha incorretos.\"\n     got: \"E-mail ou senha incorretos.\"\n\n(compared using ==)\n (RSpec::Expectations::ExpectationNotMetError)\n./features/pageobjects/login_page.rb:98:in `assert_login_erro'\n./features/step_definitions/login_steps.rb:41:in `/^devo\\ encontrar\\ a\\ mensagem\\ de\\ email\\ ou\\ senha\\ incorretos$/'\nfeatures/login.feature:25:in `Então devo encontrar a mensagem de email ou senha incorretos'",
+              "duration": 2199698000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2011089000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1039962000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 199000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

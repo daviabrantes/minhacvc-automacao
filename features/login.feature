@@ -37,8 +37,9 @@ Quando eu clicar no botão de esqueci minha senha
 E preencher os dados para recuperar minha senha
 Então devem ser enviadas instruções por email
 
-@Cadastro
-Cenário: Efetuar cadastro com sucesso
+@EsqueciSenha
+Cenário: Esqueci senha com cpf incorreto
 Dado que estou na home de login
-Quando cadastrar os dados de usuário válidos
-Então devo acessar a home cadastrado com sucesso
+Quando eu clicar no botão de esqueci minha senha
+E preencher os dados com CPF não cadastrado para recuperar minha senha
+Então devo encontrar a mensagem de "dados informados não conferem"

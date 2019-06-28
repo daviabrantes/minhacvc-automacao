@@ -54,6 +54,27 @@ class LoginPage
     click @mappings['button_enviar']
   end
 
+  def preencher_esqueci_senha_cpf_incorreto
+    login = USUARIOS[:usuario_esqueci_senha]
+    fill_in @mappings['text_cpf'], '12070881024'
+    fill_in @mappings['text_email'], login[:email]
+    click @mappings['button_enviar']
+  end
+
+  def preencher_esqueci_senha_cpf_inexistente
+    login = USUARIOS[:usuario_esqueci_senha]
+    fill_in @mappings['text_cpf'], '11122233344'
+    fill_in @mappings['text_email'], login[:email]
+    click @mappings['button_enviar']
+  end
+
+  def preencher_esqueci_senha_email_inexistente
+    login = USUARIOS[:usuario_esqueci_senha]
+    fill_in @mappings['text_cpf'], login[:nome]
+    fill_in @mappings['text_email'], 'email@teste.com'
+    click @mappings['button_enviar']
+  end
+
 
 
   ### Assertions ###
@@ -70,18 +91,18 @@ class LoginPage
     element_exists?(@mappings['label_nome_entrada']) 
     $olaUsuario = get_text @mappings['label_nome_entrada']
     expect($olaUsuario).to eq("Olá,")
-    $logger.debug("Acesso sem login com sucesso!")
+    $logger.info("Acesso sem login com sucesso!")
   end
 
   def assert_login_erro
     expect(get_text @mappings['label_email_senha_erro']).to eq('E-mail ou senha incorretos.')
-    $logger.debug("Erro de login realizado com sucesso!")
+    $logger.info("Erro de login realizado com sucesso!")
   end
 
   def assert_esqueci_senha
     expect(get_text @mappings['label_senha_enviada']).to eq('Senha enviada para seu e-mail de cadastro')
     expect(get_text @mappings['label_email_instrucoes']).to include('e-mail com as instruções')
-    $logger.debug("E-mail de recuperação enviado com sucesso!")
+    $logger.info("E-mail de recuperação enviado com sucesso!")
   end
 
 end

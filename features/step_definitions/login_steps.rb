@@ -2,7 +2,6 @@
 
 Dado("que estou na home de login") do
     $login_page = LoginPage.new
-    $logger.debug("Início do teste do cenário #{$scenario}...")
 end
 
 Quando("informar os dados de usuário válidos") do

@@ -1,0 +1,5 @@
+# Logfile created on 2019-06-28 15:43:19 -0300 by logger.rb/66358
+D, [2019-06-28T15:43:24.566956 #8180] DEBUG -- : Início do teste do cenário efetuar_login_com_sucesso...
+I, [2019-06-28T15:43:24.567189 #8180]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-28T15:43:25.816237 #8180]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-28T15:43:26.215010 #8180]  INFO -- : Clicou no botão buttonSignIn

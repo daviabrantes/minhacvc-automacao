@@ -1,0 +1,20 @@
+# Logfile created on 2019-06-28 16:40:33 -0300 by logger.rb/66358
+D, [2019-06-28T16:40:36.541551 #10245] DEBUG -- : Início do teste do cenário ...
+I, [2019-06-28T16:40:36.554235 #10245]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-28T16:40:37.915715 #10245]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-28T16:40:38.235073 #10245]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-28T16:40:44.650118 #10245]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-06-28T16:40:50.838844 #10245]  INFO -- : Preencheu o campo editTextPassword com o valor thi0927
+I, [2019-06-28T16:40:50.842025 #10245]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-28T16:40:51.438194 #10245]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-28T16:40:51.786058 #10245]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-28T16:40:51.788099 #10245]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-06-28T16:40:52.817491 #10245]  INFO -- : Loguei com sucesso - usuário frormm@gmail.com
+I, [2019-06-28T16:40:56.368044 #10245]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+D, [2019-06-28T16:40:57.354634 #10245] DEBUG -- : Fim do Teste!
+D, [2019-06-28T16:41:01.415360 #10245] DEBUG -- : Início do teste do cenário ...
+I, [2019-06-28T16:41:01.416899 #10245]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-28T16:41:02.114496 #10245]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-06-28T16:41:03.012318 #10245]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-06-28T16:41:03.464732 #10245]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-06-28T16:41:10.361173 #10245]  INFO -- : Preencheu o campo emailEditText com o valor teste@descubra.com
