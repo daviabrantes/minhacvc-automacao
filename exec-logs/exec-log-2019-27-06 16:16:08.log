@@ -1,5 +1,0 @@
-# Logfile created on 2019-06-27 16:16:08 -0300 by logger.rb/66358
-D, [2019-06-27T16:16:11.291925 #9628] DEBUG -- : Início do teste do cenário recuperar_senha...
-I, [2019-06-27T16:16:11.294288 #9628]  INFO -- : Verificando se existe o elemento textViewResetPassword
-I, [2019-06-27T16:16:12.883802 #9628]  INFO -- : Verificando se existe o elemento textViewResetPassword
-I, [2019-06-27T16:16:13.169112 #9628]  INFO -- : Verificando se existe o elemento textViewResetPassword

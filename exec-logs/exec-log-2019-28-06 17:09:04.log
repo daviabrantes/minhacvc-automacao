@@ -1,7 +1,0 @@
-# Logfile created on 2019-06-28 17:09:04 -0300 by logger.rb/66358
-D, [2019-06-28T17:09:09.980487 #11596] DEBUG -- : Início do teste do cenário efetuar_login_com_sucesso...
-I, [2019-06-28T17:09:09.983688 #11596]  INFO -- : Verificando se existe o elemento buttonSignIn
-I, [2019-06-28T17:09:10.677625 #11596]  INFO -- : Verificando se existe o elemento buttonSignIn
-I, [2019-06-28T17:09:11.477934 #11596]  INFO -- : Aguardou a existência do elemento buttonSignIn
-I, [2019-06-28T17:09:11.877092 #11596]  INFO -- : Clicou no botão buttonSignIn
-I, [2019-06-28T17:09:18.883869 #11596]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com

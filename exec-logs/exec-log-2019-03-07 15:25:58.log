@@ -1,0 +1,66 @@
+# Logfile created on 2019-07-03 15:25:58 -0300 by logger.rb/66358
+D, [2019-07-03T15:26:02.462453 #5956] DEBUG -- : Início do teste do cenário efetuar_esqueci_minha_senha_com_sucesso...
+I, [2019-07-03T15:26:02.472204 #5956]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-03T15:26:03.204801 #5956]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-03T15:26:03.897896 #5956]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-03T15:26:04.231580 #5956]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-03T15:26:04.231681 #5956]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-07-03T15:26:04.767715 #5956]  INFO -- : Aguardou a existência do elemento textViewResetPassword
+I, [2019-07-03T15:26:05.029140 #5956]  INFO -- : Clicou no botão textViewResetPassword
+I, [2019-07-03T15:26:11.753357 #5956]  INFO -- : Preencheu o campo sign_up_edit_cpf com o valor 47169855127
+I, [2019-07-03T15:26:18.250691 #5956]  INFO -- : Preencheu o campo emailEditText com o valor buck.bednar@hotmail.com
+I, [2019-07-03T15:26:18.250838 #5956]  INFO -- : Verificando se existe o elemento sendButton
+I, [2019-07-03T15:26:18.890230 #5956]  INFO -- : Aguardou a existência do elemento sendButton
+I, [2019-07-03T15:26:19.055497 #5956]  INFO -- : Clicou no botão sendButton
+D, [2019-07-03T15:26:28.935031 #5956] DEBUG -- : Fim do teste do cenário #<Cucumber::Core::Test::Case:0x00007fc4d6979a08>...
+D, [2019-07-03T15:26:34.221403 #5956] DEBUG -- : Início do teste do cenário efetuar_esqueci_minha_senha_com_cpf_não_cadastrado...
+I, [2019-07-03T15:26:34.225921 #5956]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-03T15:26:34.957650 #5956]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-03T15:26:35.240512 #5956]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-03T15:26:35.517283 #5956]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-03T15:26:35.785877 #5956]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-03T15:26:36.051058 #5956]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-03T15:26:36.315653 #5956]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-03T15:26:37.155328 #5956]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-03T15:26:37.451959 #5956]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-03T15:26:37.452077 #5956]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-07-03T15:26:38.028000 #5956]  INFO -- : Aguardou a existência do elemento textViewResetPassword
+I, [2019-07-03T15:26:38.273226 #5956]  INFO -- : Clicou no botão textViewResetPassword
+D, [2019-07-03T15:26:39.279599 #5956] DEBUG -- : Fim do teste do cenário #<Cucumber::Core::Test::Case:0x00007fc4d617c5a8>...
+D, [2019-07-03T15:26:43.625200 #5956] DEBUG -- : Início do teste do cenário efetuar_esqueci_minha_senha_com_email_não_cadastrado...
+I, [2019-07-03T15:26:43.627853 #5956]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-03T15:26:44.332720 #5956]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-03T15:26:44.625267 #5956]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-03T15:26:44.890156 #5956]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-03T15:26:45.178359 #5956]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-03T15:26:45.440137 #5956]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-03T15:26:45.725710 #5956]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-03T15:26:45.991050 #5956]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-03T15:26:46.275311 #5956]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-03T15:26:47.074119 #5956]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-03T15:26:47.423274 #5956]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-03T15:26:47.423372 #5956]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-07-03T15:26:47.972444 #5956]  INFO -- : Aguardou a existência do elemento textViewResetPassword
+I, [2019-07-03T15:26:48.217113 #5956]  INFO -- : Clicou no botão textViewResetPassword
+D, [2019-07-03T15:26:50.393667 #5956] DEBUG -- : Fim do teste do cenário #<Cucumber::Core::Test::Case:0x00007fc4d68ef3a8>...
+D, [2019-07-03T15:26:55.629670 #5956] DEBUG -- : Início do teste do cenário efetuar_esqueci_minha_senha_com_dados_divergentes...
+I, [2019-07-03T15:26:55.631715 #5956]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-03T15:26:56.887076 #5956]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-03T15:26:57.324869 #5956]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-03T15:26:57.325018 #5956]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-07-03T15:26:57.875328 #5956]  INFO -- : Aguardou a existência do elemento textViewResetPassword
+I, [2019-07-03T15:26:58.174935 #5956]  INFO -- : Clicou no botão textViewResetPassword
+D, [2019-07-03T15:27:00.334641 #5956] DEBUG -- : Fim do teste do cenário #<Cucumber::Core::Test::Case:0x00007fc4d461ef18>...
+D, [2019-07-03T15:27:05.326700 #5956] DEBUG -- : Início do teste do cenário validar_campos_esqueci_minha_senha...
+I, [2019-07-03T15:27:05.328363 #5956]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-03T15:27:05.989401 #5956]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-03T15:27:06.286352 #5956]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-03T15:27:06.578958 #5956]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-03T15:27:06.834315 #5956]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-03T15:27:07.774827 #5956]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-03T15:27:08.136472 #5956]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-03T15:27:08.137448 #5956]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-07-03T15:27:08.725013 #5956]  INFO -- : Aguardou a existência do elemento textViewResetPassword
+I, [2019-07-03T15:27:09.075545 #5956]  INFO -- : Clicou no botão textViewResetPassword
+D, [2019-07-03T15:27:11.141847 #5956] DEBUG -- : Fim do teste do cenário #<Cucumber::Core::Test::Case:0x00007fc4d46b5c38>...
+D, [2019-07-03T15:27:12.386302 #5956] DEBUG -- : Fim dos Testes!

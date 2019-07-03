@@ -9,7 +9,7 @@ include FFaker
 class LoginPage
 
   def initialize
-    get_screen_mappings 'login'
+    get_screen_mappings 'login' # carrega os elementos da tela Login
   end
   
   def login

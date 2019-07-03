@@ -22,7 +22,7 @@ $executionTime = $executionTime.strftime('%Y-%d-%m %H:%M:%S')
 $env = ENV['PLATFORM'].downcase
 $logger = Logger.new("./exec-logs/exec-log-#{$executionTime}.log")
 
-if ENV['PLATFORM'].nil?
+if $env.nil?
     raise 'Voce tem que definir se é iOS ou Android'
 end
 

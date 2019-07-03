@@ -1,9 +1,0 @@
-# Logfile created on 2019-06-27 16:35:57 -0300 by logger.rb/66358
-D, [2019-06-27T16:36:00.851903 #10813] DEBUG -- : Início do teste do cenário esqueci_senha...
-I, [2019-06-27T16:36:00.853547 #10813]  INFO -- : Verificando se existe o elemento buttonSignIn
-I, [2019-06-27T16:36:02.153712 #10813]  INFO -- : Aguardou a existência do elemento buttonSignIn
-I, [2019-06-27T16:36:02.487059 #10813]  INFO -- : Clicou no botão buttonSignIn
-I, [2019-06-27T16:36:02.487289 #10813]  INFO -- : Verificando se existe o elemento textViewResetPassword
-I, [2019-06-27T16:36:03.033181 #10813]  INFO -- : Aguardou a existência do elemento textViewResetPassword
-I, [2019-06-27T16:36:03.274817 #10813]  INFO -- : Clicou no botão textViewResetPassword
-I, [2019-06-27T16:36:04.285649 #10813]  INFO -- : Fim do Teste!

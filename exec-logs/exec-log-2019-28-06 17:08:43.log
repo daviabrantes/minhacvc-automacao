@@ -1,6 +1,0 @@
-# Logfile created on 2019-06-28 17:08:43 -0300 by logger.rb/66358
-D, [2019-06-28T17:08:48.342837 #11509] DEBUG -- : Início do teste do cenário #<Cucumber::Core::Test::Case:0x00007ff778277348>...
-I, [2019-06-28T17:08:48.345577 #11509]  INFO -- : Verificando se existe o elemento buttonSignIn
-I, [2019-06-28T17:08:49.978616 #11509]  INFO -- : Aguardou a existência do elemento buttonSignIn
-I, [2019-06-28T17:08:50.379263 #11509]  INFO -- : Clicou no botão buttonSignIn
-I, [2019-06-28T17:08:57.381216 #11509]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
