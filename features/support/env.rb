@@ -9,10 +9,11 @@ require "rspec/expectations"
 require 'report_builder'
 require 'capybara/cucumber'
 require 'capybara-screenshot/cucumber'
-require 'base64'
-require 'colorize'
 require_relative '../pageobjects/login_page.rb'
 require_relative '../pageobjects/cadastro_page.rb'
+require_relative '../pageobjects/inicial_page.rb'
+require_relative '../pageobjects/home_page.rb'
+require_relative '../pageobjects/esqueci_minha_senha_page.rb'
 
 class AppiumWorld
 end

@@ -7,6 +7,8 @@ android:
   button_ir_login:            'buttonOk'
   label_alerta_erro:          'alertTitle'
   button_alerta_ok:           'button1'
+  button_cancelar_cpf:        'button2'
+
 
 ios:
   text_cpf:                   'sign_up_edit_cpf'
@@ -17,3 +19,4 @@ ios:
   button_ir_login:            'buttonOk'
   label_alerta_erro:          'alertTitle'
   button_alerta_ok:           'button1'
+  button_cancelar_cpf:        'button2'

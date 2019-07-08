@@ -11,6 +11,9 @@ android:
   label_email_cadastrado:     'signUpEmail'
   label_cadastro_realizado:   'title'
   button_entrar_cadastro:     'buttonOk'
+  #Alerta Email Cadastrado
+  button_alerta_ir_login:     'button1'
+  link_redefina_senha:        'message'
 
 ios:
   #Tela Cadastro
@@ -25,3 +28,6 @@ ios:
   label_email_cadastrado:     'signUpEmail'
   label_cadastro_realizado:   'title'
   button_entrar_cadastro:     'buttonOk'
+  #Alerta Email Cadastrado
+  button_alerta_ir_login:     'button1'
+  link_redefina_senha:        'message'

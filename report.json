@@ -70,7 +70,7 @@
         "steps": [
           {
             "keyword": "Dado ",
-            "name": "que estou na home de login",
+            "name": "que estou na tela inicial do aplicativo",
             "line": 11,
             "match": {
               "location": "features/step_definitions/login_steps.rb:3"
@@ -207,7 +207,7 @@
         "steps": [
           {
             "keyword": "Dado ",
-            "name": "que estou na home de login",
+            "name": "que estou na tela inicial do aplicativo",
             "line": 17,
             "match": {
               "location": "features/step_definitions/login_steps.rb:3"
@@ -345,7 +345,7 @@
         "steps": [
           {
             "keyword": "Dado ",
-            "name": "que estou na home de login",
+            "name": "que estou na tela inicial do aplicativo",
             "line": 23,
             "match": {
               "location": "features/step_definitions/login_steps.rb:3"

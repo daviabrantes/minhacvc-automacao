@@ -12,26 +12,22 @@ class LoginPage
     get_screen_mappings 'login' # carrega os elementos da tela Login
   end
   
-  def login
+  def logar
     login = USUARIOS[:usuario_aereo_hotel]
-    click @mappings['button_entrar']
     fill_in @mappings['text_email'], login[:email]
     fill_in @mappings['text_senha'], login[:senha]
     click @mappings['button_entrar']
-    get_screen_mappings 'home_logada'
   end
 
-  def login_erro_email
+  def logar_erro_email
     login = USUARIOS[:usuario_aereo_hotel]
-    click @mappings['button_entrar']
     fill_in @mappings['text_email'], 'teste@descubra.com'
     fill_in @mappings['text_senha'], login[:senha]
     click @mappings['button_entrar']
   end
 
-  def login_erro_senha
+  def logar_erro_senha
     login = USUARIOS[:usuario_aereo_hotel]
-    click @mappings['button_entrar']
     fill_in @mappings['text_email'], login[:email]
     fill_in @mappings['text_senha'], '123456'
     click @mappings['button_entrar']
@@ -39,42 +35,12 @@ class LoginPage
 
   def loginless
     click @mappings['button_continuar_sem_login']
-    get_screen_mappings 'home_logada'
   end
 
-  def esqueci_senha 
-    click @mappings['button_entrar']
+  def clicar_esqueci_senha
     click @mappings['link_esqueci_senha']
   end
-
-  def preencher_esqueci_senha
-    login = USUARIOS[:usuario_esqueci_senha]
-    fill_in @mappings['text_cpf'], login[:cpf]
-    fill_in @mappings['text_email'], login[:email]
-    click @mappings['button_enviar']
-  end
-
-  def preencher_esqueci_senha_cpf_incorreto
-    login = USUARIOS[:usuario_esqueci_senha]
-    fill_in @mappings['text_cpf'], '12070881024'
-    fill_in @mappings['text_email'], login[:email]
-    click @mappings['button_enviar']
-  end
-
-  def preencher_esqueci_senha_cpf_inexistente
-    login = USUARIOS[:usuario_esqueci_senha]
-    fill_in @mappings['text_cpf'], '11122233344'
-    fill_in @mappings['text_email'], login[:email]
-    click @mappings['button_enviar']
-  end
-
-  def preencher_esqueci_senha_email_inexistente
-    login = USUARIOS[:usuario_esqueci_senha]
-    fill_in @mappings['text_cpf'], login[:nome]
-    fill_in @mappings['text_email'], 'email@teste.com'
-    click @mappings['button_enviar']
-  end
-
+      
 
 
   ### Assertions ###
@@ -99,10 +65,13 @@ class LoginPage
     $logger.info("Erro de login realizado com sucesso!")
   end
 
-  def assert_esqueci_senha
-    expect(get_text @mappings['label_senha_enviada']).to eq('Senha enviada para seu e-mail de cadastro')
-    expect(get_text @mappings['label_email_instrucoes']).to include('e-mail com as instruções')
-    $logger.info("E-mail de recuperação enviado com sucesso!")
+  def assert_elementos_login
+    expect(@mappings['text_email']).to exist
+    expect(@mappings['text_senha']).to exist
+    expect(@mappings['link_esqueci_senha']).to exist
+    expect(@mappings['button_ver_password']).to exist
+    expect(@mappings['link_cadastro']).to exist
+    fill_in @mappings['text_email'], 'a'
   end
 
 end

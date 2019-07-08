@@ -8,12 +8,10 @@ include FFaker
 class CadastroPage
 
   def initialize
-    get_screen_mappings 'login'
+    get_screen_mappings 'cadastro'
   end
   
   def cadastrar_usuario
-    click @mappings['button_cadastro']
-    get_screen_mappings 'cadastro'
     preencher_dados_cadastro
     click @mappings['button_continuar']
   end
@@ -33,6 +31,24 @@ class CadastroPage
     back
   end
 
+  def preencher_dados_cpf_cadastrado
+    fill_in @mappings['text_cpf'], '47169855127'
+    click @mappings['text_nome_completo']
+  end
+
+  def preencher_dados_email_cadastrado
+    fill_in @mappings['text_email'], 'buck.bednar@hotmail.com'
+    click @mappings['text_nome_completo']
+  end
+
+  def clicar_politica
+    click @mappings['link_politica_seguranca']
+  end
+
+  def clicar_login_cadastro
+    click @mappings['button_alerta_ir_login']
+  end
+
 
 
   ### Assertions ###
@@ -43,6 +59,20 @@ class CadastroPage
     $logger.info("Cadastrei usuário com sucesso - Email: #{$emailCadastro} - Senha: Senha123!")
     expect(get_text @mappings['label_email_cadastrado']).to eq($emailCadastro)
     expect(get_text @mappings['label_cadastro_realizado']).to include('realizado com sucesso')
+  end
+
+  def assert_email_cadastrado
+    expect(get_text @mappings['label_cadastro_realizado']).to include('realizado com sucesso')
+  end
+  
+  def validar_campos
+  end
+
+  def assert_politicas
+    
+  end
+
+  def assert_cpf_cadastrado
   end
 
 end

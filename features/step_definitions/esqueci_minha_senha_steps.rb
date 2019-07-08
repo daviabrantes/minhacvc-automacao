@@ -1,10 +1,5 @@
 # frozen_string_literal: true
 
-Quando("eu clicar no botão de esqueci minha senha") do
-    $esqueci_minha_senha_page = EsqueciMinhaSenhaPage.new
-    $esqueci_minha_senha_page.clicar_esqueci_senha    
-end
-
 Quando("preencher os dados com CPF não cadastrado para recuperar minha senha") do
     $esqueci_minha_senha_page.preencher_cpf_nao_cadastrado
 end
@@ -21,15 +16,24 @@ Quando("informar dados de senha para testar os elementos da tela") do
     $esqueci_minha_senha_page.validar_elementos
 end
 
+Quando("inserir um CPF já cadastrado") do
+    
+end
+
+Quando("clicar no link para redefinir minha senha") do
+    
+end
+
 E("preencher os dados para recuperar minha senha") do
+    $esqueci_minha_senha_page = EsqueciMinhaSenhaPage.new
     $esqueci_minha_senha_page.preencher_esqueci_senha  
 end
   
-Então("não devo encontrar erros na tela") do
+Então("não devo encontrar erros na tela de esqueci minha senha") do
     $esqueci_minha_senha_page.assert_validar_elementos  
 end
 
-Então("devo encontrar a mensagem de {string}" do |mensagem|
+Então("devo encontrar a mensagem de {string}") do |mensagem|
     $esqueci_minha_senha_page.assert_mensagem_erro
 end
 

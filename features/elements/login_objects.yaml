@@ -1,10 +1,4 @@
 android:
-  #Tela Inicial
-  button_entrar:              'buttonSignIn'
-  button_cadastro:            'buttonSignUp'
-  button_continuar_sem_login: 'btnEnterNoLogin'
-  button_fechar:              'buttonLoginClose'
-  button_entrar:              'buttonSignIn'
   #Tela Login
   button_ver_password:        'text_input_password_toggle'
   text_email:                 'emailEditText'
@@ -12,14 +6,9 @@ android:
   link_esqueci_senha:         'textViewResetPassword'
   link_cadastro:              'textViewSignUp'
   label_email_senha_erro:     'text_view_alert_title'
+  button_entrar:              'buttonSignIn'
 
 ios:
-  #Tela Inicial
-  button_entrar:              'buttonSignIn'
-  button_cadastro:            'buttonSignUp'
-  button_continuar_sem_login: 'btnEnterNoLogin'
-  button_fechar:              'buttonLoginClose'
-  button_entrar:              'buttonSignIn'
   #Tela Login
   button_ver_password:        'text_input_password_toggle'
   text_email:                 'emailEditText'
@@ -27,3 +16,4 @@ ios:
   link_esqueci_senha:         'textViewResetPassword'
   link_cadastro:              'textViewSignUp'
   label_email_senha_erro:     'text_view_alert_title'
+  button_entrar:              'buttonSignIn'

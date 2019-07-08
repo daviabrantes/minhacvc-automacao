@@ -13,6 +13,7 @@ class EsqueciMinhaSenhaPage
   end
   
   def clicar_esqueci_senha 
+    get_screen_mappings 'login' 
     click @mappings['button_entrar']
     click @mappings['link_esqueci_senha']
   end

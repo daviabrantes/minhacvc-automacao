@@ -21,6 +21,10 @@
     $data = dia.to_s + mes.to_s + ano.to_s
   end
 
+  def desativar_conexao
+    $driver.toggle_wifi;
+  end
+
   def swipe_down
     @x = window_size[:width]/2
     @y = window_size[:height] - 200
