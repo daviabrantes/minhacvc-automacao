@@ -37,8 +37,12 @@ class CadastroPage
   end
 
   def preencher_dados_email_cadastrado
+    fill_in @mappings['text_nome_completo'], 'Teste'
+    fill_in @mappings['text_cpf'], '19960935094'
+    fill_in @mappings['text_data_nascimento'], '11112000'
     fill_in @mappings['text_email'], 'buck.bednar@hotmail.com'
-    click @mappings['text_nome_completo']
+    fill_in @mappings['text_senha_cadastro'], 'Senha123!'
+    back
   end
 
   def clicar_politica
@@ -48,6 +52,16 @@ class CadastroPage
   def clicar_login_cadastro
     click @mappings['button_alerta_ir_login']
   end
+
+  def clicar_continuar
+    click @mappings['button_continuar']
+  end
+
+  def clicar_redefina_senha
+    # Não tá funcionando click @mappings['link_redefina_senha']
+    Appium::TouchAction.new.tap(x:500, y:900).release.perform
+  end
+
 
 
 
@@ -62,7 +76,7 @@ class CadastroPage
   end
 
   def assert_email_cadastrado
-    expect(get_text @mappings['label_cadastro_realizado']).to include('realizado com sucesso')
+    expect(get_text @mappings['link_redefina_senha']).to include('O e-mail informado já consta em nossa base de dados')
   end
   
   def validar_campos

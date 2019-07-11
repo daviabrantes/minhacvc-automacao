@@ -10,15 +10,15 @@ E preencher os dados para recuperar minha senha
 Então devem ser enviadas instruções por email
 
 #TODO
-#@Esqueci_Minha_Senha
+@Esqueci_Minha_Senha2
 Cenário: Efetuar Esqueci Minha Senha em tela de cadastro
 Dado que estou na tela inicial do aplicativo
 E clicar em cadastrar
-Quando inserir um CPF já cadastrado
+Quando inserir um CPF já cadastrado para cadastrar
 E clicar no link para redefinir minha senha
-Então devo ser redirecionado para a tela de "Esqueci Minha Senha"
+Então devo ser redirecionado para a tela de Esqueci Minha Senha
 
-@Esqueci_Minha_Senha
+@Esqueci_Minha_Senha3
 Cenário: Efetuar Esqueci Minha Senha com CPF não cadastrado
 Dado que estou na tela inicial do aplicativo
 E clicar em entrar

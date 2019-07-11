@@ -42,6 +42,19 @@ Quando("eu clicar no botão de ir para o login") do
     $cadastro_page.clicar_login_cadastro
 end
 
+Quando("inserir um CPF já cadastrado para cadastrar") do
+    $cadastro_page = CadastroPage.new
+    $cadastro_page.preencher_dados_cpf_cadastrado
+end
+
+E("clicar em continuar") do
+    $cadastro_page.clicar_continuar
+end
+
+E("clicar no link para redefinir minha senha") do
+    $cadastro_page.clicar_redefina_senha
+end
+
 Então("devo acessar a home cadastrado com sucesso") do
     $cadastro_page.assert_cadastro
 end 

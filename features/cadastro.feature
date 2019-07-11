@@ -8,7 +8,6 @@ E clicar em cadastrar
 Quando cadastrar os dados de usuário válidos
 Então devo acessar a home cadastrado com sucesso
 
-#TODO
 @Cadastro2
 Cenário: Efetuar Cadastro com CPF já cadastrado
 Dado que estou na tela inicial do aplicativo
@@ -16,12 +15,12 @@ E clicar em cadastrar
 Quando informar os dados de usuário com CPF já cadastrado
 Então devo encontrar a mensagem de CPF já cadastrado
 
-#TODO
-@Cadastro3 #3
+@Cadastro3
 Cenário: Efetuar Cadastro com email já cadastrado
 Dado que estou na tela inicial do aplicativo
 E clicar em cadastrar
 Quando informar os dados de usuário com email já cadastrado
+E clicar em continuar
 Então devo encontrar a mensagem de email já cadastrado
 
 #TODO

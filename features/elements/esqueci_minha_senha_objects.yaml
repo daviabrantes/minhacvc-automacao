@@ -1,4 +1,5 @@
 android:
+  label_descricao:            'descriptionTextView'
   text_cpf:                   'sign_up_edit_cpf'
   text_email:                 'emailEditText'
   button_enviar:              'sendButton'

@@ -64,6 +64,11 @@ class EsqueciMinhaSenhaPage
     $logger.info("E-mail de recuperação enviado com sucesso!")
   end
 
+  def assert_redirecionamento
+    expect(get_text @mappings['label_descricao']).to eq('Informe os dados de cadastro para alterar sua senha.')
+  end
+
+
   def assert_validar_elementos
   end
 

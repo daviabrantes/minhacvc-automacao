@@ -1,0 +1,20 @@
+# Logfile created on 2019-07-10 15:51:36 -0300 by logger.rb/66358
+D, [2019-07-10T15:51:39.692227 #10650] DEBUG -- : Início do teste do cenário efetuar_cadastro_com_sucesso...
+I, [2019-07-10T15:51:39.694474 #10650]  INFO -- : Verificando se existe o elemento buttonSignUp
+I, [2019-07-10T15:51:40.445233 #10650]  INFO -- : Verificando se existe o elemento buttonSignUp
+I, [2019-07-10T15:51:41.091666 #10650]  INFO -- : Aguardou a existência do elemento buttonSignUp
+I, [2019-07-10T15:51:41.457314 #10650]  INFO -- : Clicou no botão buttonSignUp
+I, [2019-07-10T15:51:48.247864 #10650]  INFO -- : Preencheu o campo fullNameEditText com o valor Gisela
+I, [2019-07-10T15:51:54.613817 #10650]  INFO -- : Preencheu o campo sign_up_edit_cpf com o valor 38600628245
+I, [2019-07-10T15:52:01.104964 #10650]  INFO -- : Preencheu o campo sign_up_edit_birthday com o valor 22051950
+I, [2019-07-10T15:52:07.594948 #10650]  INFO -- : Preencheu o campo emailEditText com o valor cecily@yahoo.com
+I, [2019-07-10T15:52:13.937500 #10650]  INFO -- : Preencheu o campo passwordEditText com o valor Senha123!
+I, [2019-07-10T15:52:14.550584 #10650]  INFO -- : Verificando se existe o elemento sendButton
+I, [2019-07-10T15:52:15.219262 #10650]  INFO -- : Aguardou a existência do elemento sendButton
+I, [2019-07-10T15:52:15.387779 #10650]  INFO -- : Clicou no botão sendButton
+I, [2019-07-10T15:52:15.388525 #10650]  INFO -- : Verificando se existe o elemento signUpEmail
+I, [2019-07-10T15:52:16.894602 #10650]  INFO -- : Cadastrei usuário com sucesso - Email: cecily@yahoo.com - Senha: Senha123!
+I, [2019-07-10T15:52:17.912361 #10650]  INFO -- : Está buscando o texto do elemento signUpEmail
+I, [2019-07-10T15:52:17.979651 #10650]  INFO -- : Está buscando o texto do elemento title
+D, [2019-07-10T15:52:18.853223 #10650] DEBUG -- : Fim do teste do cenário #<Cucumber::Core::Test::Case:0x00007fba37b3bac0>...
+D, [2019-07-10T15:52:19.964485 #10650] DEBUG -- : Fim dos Testes!

@@ -20,10 +20,6 @@ Quando("inserir um CPF já cadastrado") do
     
 end
 
-Quando("clicar no link para redefinir minha senha") do
-    
-end
-
 E("preencher os dados para recuperar minha senha") do
     $esqueci_minha_senha_page = EsqueciMinhaSenhaPage.new
     $esqueci_minha_senha_page.preencher_esqueci_senha  
@@ -39,4 +35,9 @@ end
 
 Então("devem ser enviadas instruções por email") do
     $esqueci_minha_senha_page.assert_esqueci_senha
+end
+
+Então("devo ser redirecionado para a tela de Esqueci Minha Senha") do
+    $esqueci_minha_senha_page = EsqueciMinhaSenhaPage.new
+    $esqueci_minha_senha_page.assert_redirecionamento
 end

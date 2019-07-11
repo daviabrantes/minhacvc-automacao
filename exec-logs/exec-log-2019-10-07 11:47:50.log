@@ -1,0 +1,93 @@
+# Logfile created on 2019-07-10 11:47:50 -0300 by logger.rb/66358
+D, [2019-07-10T11:47:53.811193 #6141] DEBUG -- : Início do teste do cenário efetuar_login_com_sucesso...
+I, [2019-07-10T11:47:53.815058 #6141]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-10T11:47:54.550265 #6141]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-10T11:47:55.474608 #6141]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-10T11:47:55.874092 #6141]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-10T11:48:02.763071 #6141]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-07-10T11:48:08.994943 #6141]  INFO -- : Preencheu o campo editTextPassword com o valor thi0927
+I, [2019-07-10T11:48:08.995042 #6141]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-10T11:48:09.566002 #6141]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-10T11:48:09.899484 #6141]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-10T11:48:09.901612 #6141]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-07-10T11:48:13.047130 #6141]  INFO -- : Loguei com sucesso - usuário frormm@gmail.com
+I, [2019-07-10T11:48:13.095676 #6141]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+D, [2019-07-10T11:48:14.588974 #6141] DEBUG -- : Fim do teste do cenário #<Cucumber::Core::Test::Case:0x00007ff3418c9038>...
+D, [2019-07-10T11:48:19.057385 #6141] DEBUG -- : Início do teste do cenário efetuar_login_convidado_com_sucesso...
+I, [2019-07-10T11:48:19.061303 #6141]  INFO -- : Verificando se existe o elemento btnEnterNoLogin
+I, [2019-07-10T11:48:20.304282 #6141]  INFO -- : Aguardou a existência do elemento btnEnterNoLogin
+I, [2019-07-10T11:48:20.568417 #6141]  INFO -- : Clicou no botão btnEnterNoLogin
+I, [2019-07-10T11:48:20.582380 #6141]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-07-10T11:48:22.723102 #6141]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-07-10T11:48:22.784786 #6141]  INFO -- : Acesso sem login com sucesso!
+D, [2019-07-10T11:48:25.538496 #6141] DEBUG -- : Fim do teste do cenário #<Cucumber::Core::Test::Case:0x00007ff344210658>...
+D, [2019-07-10T11:48:30.421945 #6141] DEBUG -- : Início do teste do cenário efetuar_login_com_email_não_cadastrado...
+I, [2019-07-10T11:48:30.424490 #6141]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-10T11:48:31.682289 #6141]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-10T11:48:32.071432 #6141]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-10T11:48:38.571629 #6141]  INFO -- : Preencheu o campo emailEditText com o valor teste@descubra.com
+I, [2019-07-10T11:48:44.770149 #6141]  INFO -- : Preencheu o campo editTextPassword com o valor thi0927
+I, [2019-07-10T11:48:44.770269 #6141]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-10T11:48:45.320830 #6141]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-10T11:48:45.675593 #6141]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-10T11:48:47.470039 #6141]  INFO -- : Está buscando o texto do elemento text_view_alert_title
+I, [2019-07-10T11:48:47.570302 #6141]  INFO -- : Erro de login realizado com sucesso!
+D, [2019-07-10T11:48:49.724017 #6141] DEBUG -- : Fim do teste do cenário #<Cucumber::Core::Test::Case:0x00007ff342c25870>...
+D, [2019-07-10T11:48:55.575211 #6141] DEBUG -- : Início do teste do cenário efetuar_login_com_senha_incorreta...
+I, [2019-07-10T11:48:55.576979 #6141]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-10T11:48:56.820233 #6141]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-10T11:48:57.169553 #6141]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-10T11:49:04.121050 #6141]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-07-10T11:49:10.374143 #6141]  INFO -- : Preencheu o campo editTextPassword com o valor 123456
+I, [2019-07-10T11:49:10.374274 #6141]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-10T11:49:10.968988 #6141]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-10T11:49:11.330742 #6141]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-10T11:49:12.969179 #6141]  INFO -- : Está buscando o texto do elemento text_view_alert_title
+I, [2019-07-10T11:49:13.068317 #6141]  INFO -- : Erro de login realizado com sucesso!
+D, [2019-07-10T11:49:15.180235 #6141] DEBUG -- : Fim do teste do cenário #<Cucumber::Core::Test::Case:0x00007ff3442a1ba8>...
+D, [2019-07-10T11:49:20.067604 #6141] DEBUG -- : Início do teste do cenário efetuar_login_da_tela_de_cadastro...
+I, [2019-07-10T11:49:20.068920 #6141]  INFO -- : Verificando se existe o elemento buttonSignUp
+I, [2019-07-10T11:49:21.321440 #6141]  INFO -- : Aguardou a existência do elemento buttonSignUp
+I, [2019-07-10T11:49:21.719939 #6141]  INFO -- : Clicou no botão buttonSignUp
+D, [2019-07-10T11:49:24.942023 #6141] DEBUG -- : Fim do teste do cenário #<Cucumber::Core::Test::Case:0x00007ff341b417e8>...
+D, [2019-07-10T11:49:29.873761 #6141] DEBUG -- : Início do teste do cenário efetuar_login_com_serviço_indisponível...
+I, [2019-07-10T11:49:29.874992 #6141]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-10T11:49:31.119236 #6141]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-10T11:49:31.468585 #6141]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-10T11:49:37.918653 #6141]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-07-10T11:49:44.169611 #6141]  INFO -- : Preencheu o campo editTextPassword com o valor thi0927
+I, [2019-07-10T11:49:44.169721 #6141]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-10T11:49:44.719184 #6141]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-10T11:49:45.080615 #6141]  INFO -- : Clicou no botão buttonSignIn
+D, [2019-07-10T11:49:47.679017 #6141] DEBUG -- : Fim do teste do cenário #<Cucumber::Core::Test::Case:0x00007ff3430a4518>...
+D, [2019-07-10T11:49:52.580750 #6141] DEBUG -- : Início do teste do cenário efetuar_login_sem_conexão...
+I, [2019-07-10T11:49:52.582186 #6141]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-10T11:49:53.819344 #6141]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-10T11:49:54.176894 #6141]  INFO -- : Clicou no botão buttonSignIn
+D, [2019-07-10T11:49:58.181860 #6141] DEBUG -- : Fim do teste do cenário #<Cucumber::Core::Test::Case:0x00007ff34429a8d0>...
+D, [2019-07-10T11:50:02.966651 #6141] DEBUG -- : Início do teste do cenário efetuar_login_com_versão_bloqueada...
+I, [2019-07-10T11:50:02.967496 #6141]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-10T11:50:04.218854 #6141]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-10T11:50:04.616900 #6141]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-10T11:50:11.066804 #6141]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-07-10T11:50:17.216748 #6141]  INFO -- : Preencheu o campo editTextPassword com o valor thi0927
+I, [2019-07-10T11:50:17.216856 #6141]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-10T11:50:17.816516 #6141]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-10T11:50:18.166265 #6141]  INFO -- : Clicou no botão buttonSignIn
+D, [2019-07-10T11:50:20.519900 #6141] DEBUG -- : Fim do teste do cenário #<Cucumber::Core::Test::Case:0x00007ff3432e7cf8>...
+D, [2019-07-10T11:50:25.516072 #6141] DEBUG -- : Início do teste do cenário efetuar_login_com_versão_desatualizada...
+I, [2019-07-10T11:50:25.516910 #6141]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-10T11:50:26.716958 #6141]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-10T11:50:27.066359 #6141]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-10T11:50:33.516112 #6141]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-07-10T11:50:39.767893 #6141]  INFO -- : Preencheu o campo editTextPassword com o valor thi0927
+I, [2019-07-10T11:50:39.768009 #6141]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-10T11:50:40.317326 #6141]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-10T11:50:40.675907 #6141]  INFO -- : Clicou no botão buttonSignIn
+D, [2019-07-10T11:50:43.521959 #6141] DEBUG -- : Fim do teste do cenário #<Cucumber::Core::Test::Case:0x00007ff345082268>...
+D, [2019-07-10T11:50:48.266564 #6141] DEBUG -- : Início do teste do cenário validar_campos_login...
+I, [2019-07-10T11:50:48.268390 #6141]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-10T11:50:49.518272 #6141]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-10T11:50:49.865279 #6141]  INFO -- : Clicou no botão buttonSignIn
+D, [2019-07-10T11:50:53.100875 #6141] DEBUG -- : Fim do teste do cenário #<Cucumber::Core::Test::Case:0x00007ff3444103e0>...
+D, [2019-07-10T11:50:54.925048 #6141] DEBUG -- : Fim dos Testes!
