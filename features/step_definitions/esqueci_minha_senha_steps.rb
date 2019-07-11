@@ -1,14 +1,17 @@
 # frozen_string_literal: true
 
 Quando("preencher os dados com CPF não cadastrado para recuperar minha senha") do
+    $esqueci_minha_senha_page = EsqueciMinhaSenhaPage.new
     $esqueci_minha_senha_page.preencher_cpf_nao_cadastrado
 end
 
 Quando("preencher os dados com email não cadastrado para recuperar minha senha") do
+    $esqueci_minha_senha_page = EsqueciMinhaSenhaPage.new
     $esqueci_minha_senha_page.preencher_email_nao_cadastrado
 end
   
 Quando("preencher os dados com email e CPF divergentes para recuperar minha senha") do
+    $esqueci_minha_senha_page = EsqueciMinhaSenhaPage.new
     $esqueci_minha_senha_page.preencher_dados_divergentes
 end
   
@@ -29,7 +32,7 @@ Então("não devo encontrar erros na tela de esqueci minha senha") do
     $esqueci_minha_senha_page.assert_validar_elementos  
 end
 
-Então("devo encontrar a mensagem de {string}") do |mensagem|
+Então("devo encontrar a mensagem de dados incorretos") do
     $esqueci_minha_senha_page.assert_mensagem_erro
 end
 

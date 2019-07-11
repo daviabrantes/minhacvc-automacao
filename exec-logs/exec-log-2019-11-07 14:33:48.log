@@ -1,0 +1,10 @@
+# Logfile created on 2019-07-11 14:33:48 -0300 by logger.rb/66358
+D, [2019-07-11T14:33:52.114906 #3440] DEBUG -- : Início do teste do cenário efetuar_esqueci_minha_senha_com_email_não_cadastrado...
+I, [2019-07-11T14:33:52.119232 #3440]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-11T14:33:53.412415 #3440]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-11T14:33:53.752004 #3440]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-11T14:33:53.754486 #3440]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-07-11T14:33:54.339148 #3440]  INFO -- : Aguardou a existência do elemento textViewResetPassword
+I, [2019-07-11T14:33:54.599547 #3440]  INFO -- : Clicou no botão textViewResetPassword
+D, [2019-07-11T14:33:58.094532 #3440] DEBUG -- : Fim do teste do cenário #<Cucumber::Core::Test::Case:0x00007f9b538aefd0>...
+D, [2019-07-11T14:33:59.052642 #3440] DEBUG -- : Fim dos Testes!

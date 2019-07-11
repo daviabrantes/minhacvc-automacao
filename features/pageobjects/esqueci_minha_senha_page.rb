@@ -41,12 +41,16 @@ class EsqueciMinhaSenhaPage
 
   def preencher_email_nao_cadastrado
     login = USUARIOS[:usuario_esqueci_senha]
-    fill_in @mappings['text_cpf'], login[:nome]
+    fill_in @mappings['text_cpf'], login[:cpf]
     fill_in @mappings['text_email'], 'email@teste.com'
     click @mappings['button_enviar']
   end
 
   def preencher_dados_divergentes
+    login = USUARIOS[:usuario_esqueci_senha]
+    fill_in @mappings['text_cpf'], login[:cpf]
+    fill_in @mappings['text_email'], 'frormm@gmail.com'
+    click @mappings['button_enviar']
   end
 
   def validar_elementos
@@ -73,6 +77,7 @@ class EsqueciMinhaSenhaPage
   end
 
   def assert_mensagem_erro
+    expect(get_text @mappings['label_alerta_erro']).to eq('Os dados informados não conferem')
   end
 
   

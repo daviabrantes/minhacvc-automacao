@@ -1,0 +1,16 @@
+# Logfile created on 2019-07-11 14:50:24 -0300 by logger.rb/66358
+D, [2019-07-11T14:50:28.018576 #4662] DEBUG -- : Início do teste do cenário efetuar_esqueci_minha_senha_com_email_não_cadastrado...
+I, [2019-07-11T14:50:28.021058 #4662]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-11T14:50:29.258097 #4662]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-11T14:50:29.589463 #4662]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-11T14:50:29.590494 #4662]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-07-11T14:50:30.177026 #4662]  INFO -- : Aguardou a existência do elemento textViewResetPassword
+I, [2019-07-11T14:50:30.407929 #4662]  INFO -- : Clicou no botão textViewResetPassword
+I, [2019-07-11T14:50:36.987431 #4662]  INFO -- : Preencheu o campo sign_up_edit_cpf com o valor 47169855127
+I, [2019-07-11T14:50:43.320388 #4662]  INFO -- : Preencheu o campo emailEditText com o valor email@teste.com
+I, [2019-07-11T14:50:43.320489 #4662]  INFO -- : Verificando se existe o elemento sendButton
+I, [2019-07-11T14:50:43.951930 #4662]  INFO -- : Aguardou a existência do elemento sendButton
+I, [2019-07-11T14:50:44.191171 #4662]  INFO -- : Clicou no botão sendButton
+I, [2019-07-11T14:50:45.159464 #4662]  INFO -- : Está buscando o texto do elemento alertTitle
+D, [2019-07-11T14:50:46.037199 #4662] DEBUG -- : Fim do teste do cenário #<Cucumber::Core::Test::Case:0x00007fad6ba55300>...
+D, [2019-07-11T14:50:47.136693 #4662] DEBUG -- : Fim dos Testes!

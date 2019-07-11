@@ -1,0 +1,15 @@
+# Logfile created on 2019-07-11 14:36:12 -0300 by logger.rb/66358
+D, [2019-07-11T14:36:15.954632 #3634] DEBUG -- : Início do teste do cenário efetuar_esqueci_minha_senha_com_email_não_cadastrado...
+I, [2019-07-11T14:36:15.958058 #3634]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-11T14:36:17.227956 #3634]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-11T14:36:17.559888 #3634]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-11T14:36:17.562186 #3634]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-07-11T14:36:18.129593 #3634]  INFO -- : Aguardou a existência do elemento textViewResetPassword
+I, [2019-07-11T14:36:18.353058 #3634]  INFO -- : Clicou no botão textViewResetPassword
+I, [2019-07-11T14:36:24.834185 #3634]  INFO -- : Preencheu o campo sign_up_edit_cpf com o valor 47169855127
+I, [2019-07-11T14:36:31.084330 #3634]  INFO -- : Preencheu o campo emailEditText com o valor email@teste.com
+I, [2019-07-11T14:36:31.084438 #3634]  INFO -- : Verificando se existe o elemento sendButton
+I, [2019-07-11T14:36:31.693306 #3634]  INFO -- : Aguardou a existência do elemento sendButton
+I, [2019-07-11T14:36:31.832161 #3634]  INFO -- : Clicou no botão sendButton
+D, [2019-07-11T14:36:32.860884 #3634] DEBUG -- : Fim do teste do cenário #<Cucumber::Core::Test::Case:0x00007f828af5ae38>...
+D, [2019-07-11T14:36:34.104211 #3634] DEBUG -- : Fim dos Testes!

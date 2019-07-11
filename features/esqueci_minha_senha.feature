@@ -24,25 +24,23 @@ Dado que estou na tela inicial do aplicativo
 E clicar em entrar
 Quando eu clicar no botão de esqueci minha senha
 E preencher os dados com CPF não cadastrado para recuperar minha senha
-Então devo encontrar a mensagem de "dados informados não conferem"
+Então devo encontrar a mensagem de dados incorretos
 
-#TODO
-#@Esqueci_Minha_Senha
+@Esqueci_Minha_Senha4
 Cenário: Efetuar Esqueci Minha Senha com email não cadastrado
 Dado que estou na tela inicial do aplicativo
 E clicar em entrar
 Quando eu clicar no botão de esqueci minha senha
 E preencher os dados com email não cadastrado para recuperar minha senha
-Então devo encontrar a mensagem de "dados informados não conferem"
+Então devo encontrar a mensagem de dados incorretos
 
-#TODO
-#@Esqueci_Minha_Senha
+@Esqueci_Minha_Senha5
 Cenário: Efetuar Esqueci Minha Senha com dados divergentes
 Dado que estou na tela inicial do aplicativo
 E clicar em entrar
 Quando eu clicar no botão de esqueci minha senha
 E preencher os dados com email e CPF divergentes para recuperar minha senha
-Então devo encontrar a mensagem de "dados informados não conferem"
+Então devo encontrar a mensagem de dados incorretos
 
 #TODO
 #@Esqueci_Minha_Senha

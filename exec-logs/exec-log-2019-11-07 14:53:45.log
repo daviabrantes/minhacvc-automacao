@@ -1,0 +1,17 @@
+# Logfile created on 2019-07-11 14:53:45 -0300 by logger.rb/66358
+D, [2019-07-11T14:53:49.372034 #4822] DEBUG -- : Início do teste do cenário efetuar_esqueci_minha_senha_com_dados_divergentes...
+I, [2019-07-11T14:53:49.374256 #4822]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-11T14:53:50.055092 #4822]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-11T14:53:50.805969 #4822]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-11T14:53:51.152869 #4822]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-11T14:53:51.153738 #4822]  INFO -- : Verificando se existe o elemento textViewResetPassword
+I, [2019-07-11T14:53:51.705166 #4822]  INFO -- : Aguardou a existência do elemento textViewResetPassword
+I, [2019-07-11T14:53:51.940133 #4822]  INFO -- : Clicou no botão textViewResetPassword
+I, [2019-07-11T14:53:58.381607 #4822]  INFO -- : Preencheu o campo sign_up_edit_cpf com o valor 47169855127
+I, [2019-07-11T14:54:04.717205 #4822]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-07-11T14:54:04.717310 #4822]  INFO -- : Verificando se existe o elemento sendButton
+I, [2019-07-11T14:54:05.306973 #4822]  INFO -- : Aguardou a existência do elemento sendButton
+I, [2019-07-11T14:54:05.488477 #4822]  INFO -- : Clicou no botão sendButton
+I, [2019-07-11T14:54:06.373805 #4822]  INFO -- : Está buscando o texto do elemento alertTitle
+D, [2019-07-11T14:54:07.211656 #4822] DEBUG -- : Fim do teste do cenário #<Cucumber::Core::Test::Case:0x00007fecaf3163e0>...
+D, [2019-07-11T14:54:08.407041 #4822] DEBUG -- : Fim dos Testes!
