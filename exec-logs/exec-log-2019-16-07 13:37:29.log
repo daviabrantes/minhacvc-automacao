@@ -1,0 +1,22 @@
+# Logfile created on 2019-07-16 13:37:29 -0300 by logger.rb/66358
+D, [2019-07-16T13:37:38.868277 #5141] DEBUG -- : Início do teste do cenário mudar_notificações_com_sucesso...
+I, [2019-07-16T13:37:38.872144 #5141]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:37:39.275159 #5141]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:37:39.511829 #5141]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:37:39.748745 #5141]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:37:40.037897 #5141]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:37:40.584486 #5141]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-16T13:37:40.705685 #5141]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-16T13:37:40.706885 #5141]  INFO -- : Verificando se existe o elemento emailEditText
+I, [2019-07-16T13:37:41.247957 #5141]  INFO -- : Verificando se existe o elemento emailEditText
+I, [2019-07-16T13:37:41.792475 #5141]  INFO -- : Aguardou a existência do elemento emailEditText
+I, [2019-07-16T13:37:43.091372 #5141]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-07-16T13:37:43.091512 #5141]  INFO -- : Verificando se existe o elemento editTextPassword
+I, [2019-07-16T13:37:43.612275 #5141]  INFO -- : Aguardou a existência do elemento editTextPassword
+I, [2019-07-16T13:37:44.337416 #5141]  INFO -- : Preencheu o campo editTextPassword com o valor thi0927
+I, [2019-07-16T13:37:44.337534 #5141]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:37:44.848243 #5141]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-16T13:37:44.905233 #5141]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-16T13:37:44.906172 #5141]  INFO -- : Verificando se existe o elemento 
+D, [2019-07-16T13:37:45.241824 #5141] DEBUG -- : Fim do teste do cenário #<Cucumber::Core::Test::Case:0x00007fccdabcf620>...
+D, [2019-07-16T13:37:45.936608 #5141] DEBUG -- : Fim dos Testes!

@@ -1,0 +1,21 @@
+# Logfile created on 2019-07-16 13:47:31 -0300 by logger.rb/66358
+D, [2019-07-16T13:47:40.974716 #5478] DEBUG -- : Início do teste do cenário mudar_notificações_com_sucesso...
+I, [2019-07-16T13:47:40.976947 #5478]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:47:41.413528 #5478]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:47:41.958730 #5478]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:47:42.288192 #5478]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:47:42.552125 #5478]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:47:42.881621 #5478]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-16T13:47:42.980383 #5478]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-16T13:47:42.981518 #5478]  INFO -- : Verificando se existe o elemento emailEditText
+I, [2019-07-16T13:47:43.283523 #5478]  INFO -- : Verificando se existe o elemento emailEditText
+I, [2019-07-16T13:47:44.103114 #5478]  INFO -- : Aguardou a existência do elemento emailEditText
+I, [2019-07-16T13:47:44.850186 #5478]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-07-16T13:47:44.850313 #5478]  INFO -- : Verificando se existe o elemento editTextPassword
+I, [2019-07-16T13:47:45.372504 #5478]  INFO -- : Aguardou a existência do elemento editTextPassword
+I, [2019-07-16T13:47:46.679328 #5478]  INFO -- : Preencheu o campo editTextPassword com o valor thi0927
+I, [2019-07-16T13:47:46.681538 #5478]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:47:47.195270 #5478]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-16T13:47:47.261564 #5478]  INFO -- : Clicou no botão buttonSignIn
+D, [2019-07-16T13:48:10.371780 #5478] DEBUG -- : Fim do teste do cenário #<Cucumber::Core::Test::Case:0x00007fe9121c20c0>...
+D, [2019-07-16T13:48:10.933963 #5478] DEBUG -- : Fim dos Testes!

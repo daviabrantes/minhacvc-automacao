@@ -1,0 +1,24 @@
+# Logfile created on 2019-07-16 13:39:25 -0300 by logger.rb/66358
+D, [2019-07-16T13:39:34.398944 #5281] DEBUG -- : Início do teste do cenário mudar_notificações_com_sucesso...
+I, [2019-07-16T13:39:34.402118 #5281]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:39:34.823269 #5281]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:39:35.053804 #5281]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:39:35.286175 #5281]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:39:35.627044 #5281]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:39:35.908544 #5281]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:39:36.233035 #5281]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-16T13:39:36.338316 #5281]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-16T13:39:36.340207 #5281]  INFO -- : Verificando se existe o elemento emailEditText
+I, [2019-07-16T13:39:36.676918 #5281]  INFO -- : Verificando se existe o elemento emailEditText
+I, [2019-07-16T13:39:37.538186 #5281]  INFO -- : Aguardou a existência do elemento emailEditText
+I, [2019-07-16T13:39:38.851041 #5281]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-07-16T13:39:38.851189 #5281]  INFO -- : Verificando se existe o elemento editTextPassword
+I, [2019-07-16T13:39:39.369075 #5281]  INFO -- : Aguardou a existência do elemento editTextPassword
+I, [2019-07-16T13:39:40.671608 #5281]  INFO -- : Preencheu o campo editTextPassword com o valor thi0927
+I, [2019-07-16T13:39:40.671714 #5281]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:39:41.184154 #5281]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-16T13:39:41.246062 #5281]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-16T13:44:36.168945 #5281]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+I, [2019-07-16T13:45:03.866078 #5281]  INFO -- : Está buscando o texto do elemento bottom_navigation_item_title
+D, [2019-07-16T13:47:28.561254 #5281] DEBUG -- : Fim do teste do cenário #<Cucumber::Core::Test::Case:0x00007fac0abbe488>...
+D, [2019-07-16T13:47:29.060023 #5281] DEBUG -- : Fim dos Testes!

@@ -1,0 +1,139 @@
+# Logfile created on 2019-07-16 13:58:51 -0300 by logger.rb/66358
+D, [2019-07-16T13:59:00.846326 #5999] DEBUG -- : Início do teste do cenário mudar_notificações_com_sucesso...
+I, [2019-07-16T13:59:00.848666 #5999]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:59:01.225315 #5999]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:59:01.872839 #5999]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:59:02.267812 #5999]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:59:02.586875 #5999]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:59:02.897984 #5999]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-16T13:59:03.017482 #5999]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-16T13:59:03.018617 #5999]  INFO -- : Verificando se existe o elemento emailEditText
+I, [2019-07-16T13:59:03.616562 #5999]  INFO -- : Verificando se existe o elemento emailEditText
+I, [2019-07-16T13:59:04.143349 #5999]  INFO -- : Aguardou a existência do elemento emailEditText
+I, [2019-07-16T13:59:05.453293 #5999]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-07-16T13:59:05.453439 #5999]  INFO -- : Verificando se existe o elemento editTextPassword
+I, [2019-07-16T13:59:05.970834 #5999]  INFO -- : Aguardou a existência do elemento editTextPassword
+I, [2019-07-16T13:59:07.293148 #5999]  INFO -- : Preencheu o campo editTextPassword com o valor thi0927
+I, [2019-07-16T13:59:07.293236 #5999]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:59:07.802050 #5999]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-16T13:59:07.891210 #5999]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-16T13:59:17.366393 #5999]  INFO -- : Verificando se existe o elemento 
+I, [2019-07-16T13:59:41.850800 #5999]  INFO -- : Verificando se existe o elemento bottom_navigation_container
+I, [2019-07-16T13:59:41.963605 #5999]  INFO -- : Aguardou a existência do elemento bottom_navigation_container
+I, [2019-07-16T13:59:42.065640 #5999]  INFO -- : Clicou no indice 3 do elemento bottom_navigation_container
+I, [2019-07-16T14:00:01.834463 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:02.079552 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:02.328175 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:02.567032 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:02.804654 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:03.043044 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:03.283554 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:03.519084 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:03.756655 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:03.990139 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:04.225928 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:04.459569 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:04.703253 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:04.935482 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:05.173015 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:05.405197 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:05.633064 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:05.875849 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:06.105904 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:06.336825 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:06.565192 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:06.793015 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:07.023269 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:07.246921 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:07.476549 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:07.702282 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:07.931029 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:08.161344 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:08.391202 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:08.621960 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:08.848002 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:09.073850 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:09.300675 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:09.528391 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:09.753750 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:09.982331 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:10.206205 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:10.429247 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:10.654369 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:10.880170 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:11.106460 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:11.333303 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:11.558262 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:11.779935 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:12.005673 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:12.232739 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:12.462415 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:12.690636 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:12.914649 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:13.137312 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:13.363999 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:13.586046 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:13.810543 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:14.037374 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:14.264048 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:14.490119 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:14.716236 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:14.950417 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:15.174998 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:15.407267 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:15.633229 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:15.860055 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:16.084828 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:16.309725 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:16.545486 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:16.768589 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:16.997794 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:17.224428 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:17.448823 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:17.671368 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:17.898954 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:18.124594 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:18.351797 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:18.576680 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:18.801108 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:19.030801 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:19.263334 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:19.493873 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:19.718569 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:19.942567 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:20.167198 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:20.396723 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:20.620036 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:20.846048 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:21.067477 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:21.290163 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:21.513104 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:00:21.738395 #5999]  INFO -- : Verificando se existe o elemento button_conta
+I, [2019-07-16T14:01:06.283893 #5999]  INFO -- : Verificando se existe o elemento bottom_navigation_container
+I, [2019-07-16T14:01:06.314027 #5999]  INFO -- : Aguardou a existência do elemento bottom_navigation_container
+I, [2019-07-16T14:01:06.365563 #5999]  INFO -- : Clicou no indice 3 do elemento bottom_navigation_container
+I, [2019-07-16T14:01:07.633667 #5999]  INFO -- : Verificando se existe o elemento bottom_navigation_container
+I, [2019-07-16T14:01:07.660278 #5999]  INFO -- : Aguardou a existência do elemento bottom_navigation_container
+I, [2019-07-16T14:01:07.714889 #5999]  INFO -- : Clicou no indice 3 do elemento bottom_navigation_container
+I, [2019-07-16T14:01:29.475177 #5999]  INFO -- : Verificando se existe o elemento 
+I, [2019-07-16T14:01:43.571935 #5999]  INFO -- : Verificando se existe o elemento bottom_navigation_container
+I, [2019-07-16T14:01:43.596148 #5999]  INFO -- : Aguardou a existência do elemento bottom_navigation_container
+I, [2019-07-16T14:01:43.641414 #5999]  INFO -- : Clicou no indice 3 do elemento bottom_navigation_container
+I, [2019-07-16T14:01:44.824658 #5999]  INFO -- : Verificando se existe o elemento bottom_navigation_container
+I, [2019-07-16T14:01:44.849742 #5999]  INFO -- : Aguardou a existência do elemento bottom_navigation_container
+I, [2019-07-16T14:01:44.907754 #5999]  INFO -- : Clicou no indice 3 do elemento bottom_navigation_container
+I, [2019-07-16T14:01:45.224369 #5999]  INFO -- : Verificando se existe o elemento bottom_navigation_container
+I, [2019-07-16T14:01:45.421344 #5999]  INFO -- : Aguardou a existência do elemento bottom_navigation_container
+I, [2019-07-16T14:01:45.470999 #5999]  INFO -- : Clicou no indice 3 do elemento bottom_navigation_container
+I, [2019-07-16T14:01:45.497248 #5999]  INFO -- : Verificando se existe o elemento bottom_navigation_container
+I, [2019-07-16T14:01:45.988621 #5999]  INFO -- : Aguardou a existência do elemento bottom_navigation_container
+I, [2019-07-16T14:01:46.043901 #5999]  INFO -- : Clicou no indice 3 do elemento bottom_navigation_container
+I, [2019-07-16T14:01:47.328415 #5999]  INFO -- : Verificando se existe o elemento bottom_navigation_container
+I, [2019-07-16T14:01:47.358635 #5999]  INFO -- : Aguardou a existência do elemento bottom_navigation_container
+I, [2019-07-16T14:01:47.414336 #5999]  INFO -- : Clicou no indice 2 do elemento bottom_navigation_container
+I, [2019-07-16T14:01:49.112243 #5999]  INFO -- : Verificando se existe o elemento bottom_navigation_container
+I, [2019-07-16T14:01:49.140096 #5999]  INFO -- : Aguardou a existência do elemento bottom_navigation_container
+I, [2019-07-16T14:01:49.187428 #5999]  INFO -- : Clicou no indice 3 do elemento bottom_navigation_container
+I, [2019-07-16T14:03:24.008527 #5999]  INFO -- : Verificando se existe o elemento 
+D, [2019-07-16T14:03:24.252025 #5999] DEBUG -- : Fim do teste do cenário #<Cucumber::Core::Test::Case:0x00007fb24c3d9658>...
+D, [2019-07-16T14:03:24.716316 #5999] DEBUG -- : Fim dos Testes!

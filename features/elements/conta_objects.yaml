@@ -1,0 +1,7 @@
+android:
+  button_notificacao:         'notificationSwitch'
+  button_conta:               'bottom_navigation_container'
+
+
+ios:
+  button_notificacao:         'notificationSwitch'

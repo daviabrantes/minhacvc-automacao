@@ -1,0 +1,17 @@
+# Logfile created on 2019-07-15 14:04:30 -0300 by logger.rb/66358
+D, [2019-07-15T14:04:37.886661 #6541] DEBUG -- : Início do teste do cenário efetuar_login_com_sucesso...
+I, [2019-07-15T14:04:37.889576 #6541]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-15T14:04:38.546939 #6541]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-15T14:04:38.767240 #6541]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-15T14:04:39.881173 #6541]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-15T14:04:39.917637 #6541]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-15T14:04:45.479907 #6541]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-07-15T14:04:47.025637 #6541]  INFO -- : Preencheu o campo editTextPassword com o valor thi0927
+I, [2019-07-15T14:04:47.027013 #6541]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-15T14:04:47.531223 #6541]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-15T14:04:47.573249 #6541]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-15T14:04:47.576483 #6541]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-07-15T14:04:47.627701 #6541]  INFO -- : Loguei com sucesso - usuário frormm@gmail.com
+I, [2019-07-15T14:04:50.906291 #6541]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+D, [2019-07-15T14:04:51.927761 #6541] DEBUG -- : Fim do teste do cenário #<Cucumber::Core::Test::Case:0x00007f9eb4a3ce88>...
+D, [2019-07-15T14:04:52.465984 #6541] DEBUG -- : Fim dos Testes!

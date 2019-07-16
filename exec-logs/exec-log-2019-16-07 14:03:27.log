@@ -1,0 +1,24 @@
+# Logfile created on 2019-07-16 14:03:27 -0300 by logger.rb/66358
+D, [2019-07-16T14:03:37.886814 #6161] DEBUG -- : Início do teste do cenário mudar_notificações_com_sucesso...
+I, [2019-07-16T14:03:37.889084 #6161]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T14:03:38.342334 #6161]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T14:03:39.073721 #6161]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T14:03:39.385716 #6161]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T14:03:39.699014 #6161]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-16T14:03:39.787552 #6161]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-16T14:03:39.788543 #6161]  INFO -- : Verificando se existe o elemento emailEditText
+I, [2019-07-16T14:03:40.106962 #6161]  INFO -- : Verificando se existe o elemento emailEditText
+I, [2019-07-16T14:03:40.969397 #6161]  INFO -- : Aguardou a existência do elemento emailEditText
+I, [2019-07-16T14:03:42.265975 #6161]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-07-16T14:03:42.266110 #6161]  INFO -- : Verificando se existe o elemento editTextPassword
+I, [2019-07-16T14:03:42.784250 #6161]  INFO -- : Aguardou a existência do elemento editTextPassword
+I, [2019-07-16T14:03:44.077886 #6161]  INFO -- : Preencheu o campo editTextPassword com o valor thi0927
+I, [2019-07-16T14:03:44.078007 #6161]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T14:03:44.593448 #6161]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-16T14:03:44.659748 #6161]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-16T14:03:52.669937 #6161]  INFO -- : Verificando se existe o elemento bottom_navigation_container
+I, [2019-07-16T14:03:52.746657 #6161]  INFO -- : Aguardou a existência do elemento bottom_navigation_container
+I, [2019-07-16T14:03:52.834806 #6161]  INFO -- : Clicou no indice 3 do elemento bottom_navigation_container
+I, [2019-07-16T14:03:52.836917 #6161]  INFO -- : Verificando se existe o elemento 
+D, [2019-07-16T14:03:53.332256 #6161] DEBUG -- : Fim do teste do cenário #<Cucumber::Core::Test::Case:0x00007f93592bf9c8>...
+D, [2019-07-16T14:03:53.831776 #6161] DEBUG -- : Fim dos Testes!

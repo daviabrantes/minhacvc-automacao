@@ -1,0 +1,148 @@
+# Logfile created on 2019-07-16 14:14:28 -0300 by logger.rb/66358
+D, [2019-07-16T14:14:38.480465 #7060] DEBUG -- : Início do teste do cenário mudar_notificações_com_sucesso...
+I, [2019-07-16T14:14:38.482524 #7060]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T14:14:38.895849 #7060]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T14:14:39.129628 #7060]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T14:14:39.528404 #7060]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T14:14:39.782642 #7060]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T14:14:40.180764 #7060]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-16T14:14:40.283885 #7060]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-16T14:14:40.284825 #7060]  INFO -- : Verificando se existe o elemento emailEditText
+I, [2019-07-16T14:14:40.566021 #7060]  INFO -- : Verificando se existe o elemento emailEditText
+I, [2019-07-16T14:14:41.469585 #7060]  INFO -- : Aguardou a existência do elemento emailEditText
+I, [2019-07-16T14:14:43.173311 #7060]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-07-16T14:14:43.173453 #7060]  INFO -- : Verificando se existe o elemento editTextPassword
+I, [2019-07-16T14:14:43.690824 #7060]  INFO -- : Aguardou a existência do elemento editTextPassword
+I, [2019-07-16T14:14:44.987076 #7060]  INFO -- : Preencheu o campo editTextPassword com o valor thi0927
+I, [2019-07-16T14:14:44.987175 #7060]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T14:14:45.499565 #7060]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-16T14:14:45.561717 #7060]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-16T14:14:45.562607 #7060]  INFO -- : Verificando se existe o elemento bottom_navigation_container
+I, [2019-07-16T14:14:46.013964 #7060]  INFO -- : Verificando se existe o elemento bottom_navigation_container
+I, [2019-07-16T14:14:46.660030 #7060]  INFO -- : Verificando se existe o elemento bottom_navigation_container
+I, [2019-07-16T14:14:46.891829 #7060]  INFO -- : Verificando se existe o elemento bottom_navigation_container
+I, [2019-07-16T14:14:47.135996 #7060]  INFO -- : Verificando se existe o elemento bottom_navigation_container
+I, [2019-07-16T14:14:47.368228 #7060]  INFO -- : Verificando se existe o elemento bottom_navigation_container
+I, [2019-07-16T14:14:47.604512 #7060]  INFO -- : Verificando se existe o elemento bottom_navigation_container
+I, [2019-07-16T14:14:47.844217 #7060]  INFO -- : Verificando se existe o elemento bottom_navigation_container
+I, [2019-07-16T14:14:49.659187 #7060]  INFO -- : Aguardou a existência do elemento bottom_navigation_container
+I, [2019-07-16T14:14:50.060849 #7060]  INFO -- : Clicou no indice 3 do elemento bottom_navigation_container
+I, [2019-07-16T14:14:56.873194 #7060]  INFO -- : Verificando se existe o elemento 
+I, [2019-07-16T14:15:15.345216 #7060]  INFO -- : Verificando se existe o elemento notificationSwitch
+I, [2019-07-16T14:15:15.375744 #7060]  INFO -- : Aguardou a existência do elemento notificationSwitch
+I, [2019-07-16T14:15:15.433462 #7060]  INFO -- : Clicou no botão notificationSwitch
+I, [2019-07-16T14:15:17.687622 #7060]  INFO -- : Verificando se existe o elemento notificationSwitch
+I, [2019-07-16T14:15:17.718367 #7060]  INFO -- : Aguardou a existência do elemento notificationSwitch
+I, [2019-07-16T14:15:17.777080 #7060]  INFO -- : Clicou no botão notificationSwitch
+I, [2019-07-16T14:15:18.397094 #7060]  INFO -- : Verificando se existe o elemento notificationSwitch
+I, [2019-07-16T14:15:18.673861 #7060]  INFO -- : Aguardou a existência do elemento notificationSwitch
+I, [2019-07-16T14:15:18.729547 #7060]  INFO -- : Clicou no botão notificationSwitch
+I, [2019-07-16T14:15:19.452656 #7060]  INFO -- : Verificando se existe o elemento notificationSwitch
+I, [2019-07-16T14:15:19.595126 #7060]  INFO -- : Aguardou a existência do elemento notificationSwitch
+I, [2019-07-16T14:15:19.651007 #7060]  INFO -- : Clicou no botão notificationSwitch
+I, [2019-07-16T14:16:10.956983 #7060]  INFO -- : Verificando se existe o elemento 
+I, [2019-07-16T14:17:32.618639 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:32.882478 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:33.117957 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:33.348206 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:33.592333 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:33.821249 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:34.047826 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:34.273679 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:34.501568 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:34.731001 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:34.970756 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:35.197656 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:35.426698 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:35.655200 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:35.881092 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:36.106394 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:36.333836 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:36.559540 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:36.786593 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:37.011165 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:37.234446 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:37.455941 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:37.680755 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:37.905362 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:38.126129 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:38.353876 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:38.581143 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:38.803224 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:39.027477 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:39.246853 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:39.468393 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:39.690469 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:39.912516 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:40.136946 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:40.359221 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:40.583268 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:40.809821 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:41.031598 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:41.256302 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:41.476897 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:41.700454 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:41.923164 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:42.148099 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:42.371133 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:42.590471 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:42.814997 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:43.033336 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:43.253234 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:43.475418 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:43.699152 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:43.928025 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:44.152405 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:44.379277 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:44.611481 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:44.835011 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:45.058109 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:45.281466 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:45.505405 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:45.729394 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:45.954739 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:46.177590 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:46.398488 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:46.619922 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:46.843479 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:47.070413 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:47.293284 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:47.515227 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:47.739723 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:47.965849 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:48.185944 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:48.407806 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:48.628506 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:48.848096 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:49.074799 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:49.298633 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:49.522305 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:49.746225 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:49.965941 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:50.189971 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:50.416598 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:50.642718 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:50.865266 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:51.086188 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:51.310173 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:51.532681 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:51.756973 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:51.976903 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:17:52.206002 #7060]  INFO -- : Verificando se existe o elemento button_notificacao
+I, [2019-07-16T14:18:14.730877 #7060]  INFO -- : Verificando se existe o elemento notificationSwitch
+I, [2019-07-16T14:18:14.755716 #7060]  INFO -- : Aguardou a existência do elemento notificationSwitch
+I, [2019-07-16T14:18:16.745373 #7060]  INFO -- : Verificando se existe o elemento notificationSwitch
+I, [2019-07-16T14:18:16.773255 #7060]  INFO -- : Aguardou a existência do elemento notificationSwitch
+I, [2019-07-16T14:18:18.712607 #7060]  INFO -- : Verificando se existe o elemento notificationSwitch
+I, [2019-07-16T14:18:18.737409 #7060]  INFO -- : Aguardou a existência do elemento notificationSwitch
+I, [2019-07-16T14:18:36.128134 #7060]  INFO -- : Verificando se existe o elemento 
+I, [2019-07-16T14:20:18.556500 #7060]  INFO -- : Verificando se existe o elemento notificationSwitch
+I, [2019-07-16T14:20:18.581202 #7060]  INFO -- : Aguardou a existência do elemento notificationSwitch
+I, [2019-07-16T14:20:41.691276 #7060]  INFO -- : Verificando se existe o elemento notificationSwitch
+I, [2019-07-16T14:20:41.713361 #7060]  INFO -- : Aguardou a existência do elemento notificationSwitch
+I, [2019-07-16T14:21:19.532353 #7060]  INFO -- : Verificando se existe o elemento notificationSwitch
+I, [2019-07-16T14:21:19.721146 #7060]  INFO -- : Aguardou a existência do elemento notificationSwitch
+I, [2019-07-16T14:21:19.770462 #7060]  INFO -- : Clicou no botão notificationSwitch
+I, [2019-07-16T14:21:22.018398 #7060]  INFO -- : Está buscando o texto do elemento notificationSwitch
+D, [2019-07-16T14:21:22.824376 #7060] DEBUG -- : Fim do teste do cenário #<Cucumber::Core::Test::Case:0x00007fbae9d7e780>...
+D, [2019-07-16T14:21:23.186075 #7060] DEBUG -- : Fim dos Testes!

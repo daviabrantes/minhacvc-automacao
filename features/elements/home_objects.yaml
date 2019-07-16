@@ -3,6 +3,7 @@ android:
   text_buscar_pacotes:        'package_search'
   container_sugestao:         'package_container' #pega por index
   banner_promocao:            'imageViewBanner'
+  button_menu:                'bottom_navigation_container'
 
 ios:
   button_entrar:              '//xpath/do/elemento'

@@ -1,5 +1,10 @@
 # frozen_string_literal: true
 
+E("clicar em conta") do
+    $home_page = HomePage.new
+    $home_page.clicar_conta
+end 
+
 Então("devo acessar a home logado com sucesso") do
     $home_page = HomePage.new
     $home_page.assert_login

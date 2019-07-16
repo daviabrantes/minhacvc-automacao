@@ -1,0 +1,38 @@
+# Logfile created on 2019-07-16 11:45:56 -0300 by logger.rb/66358
+D, [2019-07-16T11:46:06.782788 #4083] DEBUG -- : Início do teste do cenário mudar_notificações_com_sucesso...
+I, [2019-07-16T11:46:06.786490 #4083]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T11:46:07.121002 #4083]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T11:46:07.364748 #4083]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T11:46:07.608603 #4083]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T11:46:07.842965 #4083]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T11:46:08.084559 #4083]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T11:46:08.337878 #4083]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T11:46:08.883578 #4083]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-16T11:46:08.984653 #4083]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-16T11:46:08.987018 #4083]  INFO -- : Verificando se existe o elemento emailEditText
+I, [2019-07-16T11:46:09.637978 #4083]  INFO -- : Verificando se existe o elemento emailEditText
+I, [2019-07-16T11:46:10.087603 #4083]  INFO -- : Aguardou a existência do elemento emailEditText
+I, [2019-07-16T11:46:11.802658 #4083]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-07-16T11:46:11.802805 #4083]  INFO -- : Verificando se existe o elemento editTextPassword
+I, [2019-07-16T11:46:12.315706 #4083]  INFO -- : Aguardou a existência do elemento editTextPassword
+I, [2019-07-16T11:46:13.043726 #4083]  INFO -- : Preencheu o campo editTextPassword com o valor thi0927
+I, [2019-07-16T11:46:13.043846 #4083]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T11:46:13.558223 #4083]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-16T11:46:13.639856 #4083]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-16T11:46:13.641854 #4083]  INFO -- : Verificando se existe o elemento bottom_navigation_item_icon
+I, [2019-07-16T11:46:14.154980 #4083]  INFO -- : Verificando se existe o elemento bottom_navigation_item_icon
+I, [2019-07-16T11:46:14.846065 #4083]  INFO -- : Verificando se existe o elemento bottom_navigation_item_icon
+I, [2019-07-16T11:46:15.096046 #4083]  INFO -- : Verificando se existe o elemento bottom_navigation_item_icon
+I, [2019-07-16T11:46:15.346731 #4083]  INFO -- : Verificando se existe o elemento bottom_navigation_item_icon
+I, [2019-07-16T11:46:15.596163 #4083]  INFO -- : Verificando se existe o elemento bottom_navigation_item_icon
+I, [2019-07-16T11:46:16.910233 #4083]  INFO -- : Aguardou a existência do elemento bottom_navigation_item_icon
+I, [2019-07-16T11:46:18.094174 #4083]  INFO -- : Clicou no botão bottom_navigation_item_icon
+I, [2019-07-16T11:46:29.189323 #4083]  INFO -- : Verificando se existe o elemento 
+I, [2019-07-16T11:47:07.494502 #4083]  INFO -- : Verificando se existe o elemento 
+I, [2019-07-16T11:50:01.591123 #4083]  INFO -- : Verificando se existe o elemento bottom_navigation_item_icon
+I, [2019-07-16T11:50:01.634715 #4083]  INFO -- : Aguardou a existência do elemento bottom_navigation_item_icon
+I, [2019-07-16T11:50:01.702445 #4083]  INFO -- : Clicou no botão bottom_navigation_item_icon
+I, [2019-07-16T11:50:15.398517 #4083]  INFO -- : Verificando se existe o elemento bottom_navigation_item_icon
+I, [2019-07-16T11:50:15.436539 #4083]  INFO -- : Aguardou a existência do elemento bottom_navigation_item_icon
+I, [2019-07-16T11:50:15.501111 #4083]  INFO -- : Clicou no botão bottom_navigation_item_icon
+D, [2019-07-16T13:36:27.173023 #4083] DEBUG -- : Fim dos Testes!

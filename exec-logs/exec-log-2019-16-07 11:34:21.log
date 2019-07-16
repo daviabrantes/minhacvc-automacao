@@ -1,0 +1,28 @@
+# Logfile created on 2019-07-16 11:34:21 -0300 by logger.rb/66358
+D, [2019-07-16T11:34:30.064470 #3593] DEBUG -- : Início do teste do cenário mudar_notificações_com_sucesso...
+I, [2019-07-16T11:34:30.075128 #3593]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T11:34:30.473929 #3593]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T11:34:30.715065 #3593]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T11:34:30.949740 #3593]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T11:34:31.284418 #3593]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T11:34:31.863345 #3593]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-16T11:34:31.936172 #3593]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-16T11:34:31.938293 #3593]  INFO -- : Verificando se existe o elemento emailEditText
+I, [2019-07-16T11:34:32.263104 #3593]  INFO -- : Verificando se existe o elemento emailEditText
+I, [2019-07-16T11:34:33.065390 #3593]  INFO -- : Aguardou a existência do elemento emailEditText
+I, [2019-07-16T11:34:34.368650 #3593]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-07-16T11:34:34.368764 #3593]  INFO -- : Verificando se existe o elemento editTextPassword
+I, [2019-07-16T11:34:34.884938 #3593]  INFO -- : Aguardou a existência do elemento editTextPassword
+I, [2019-07-16T11:34:36.195701 #3593]  INFO -- : Preencheu o campo editTextPassword com o valor thi0927
+I, [2019-07-16T11:34:36.195799 #3593]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T11:34:36.708173 #3593]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-16T11:34:36.770177 #3593]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-16T11:34:36.772666 #3593]  INFO -- : Verificando se existe o elemento bottom_navigation_container
+I, [2019-07-16T11:34:37.208537 #3593]  INFO -- : Verificando se existe o elemento bottom_navigation_container
+I, [2019-07-16T11:34:37.855158 #3593]  INFO -- : Verificando se existe o elemento bottom_navigation_container
+I, [2019-07-16T11:34:38.086070 #3593]  INFO -- : Verificando se existe o elemento bottom_navigation_container
+I, [2019-07-16T11:34:38.323022 #3593]  INFO -- : Verificando se existe o elemento bottom_navigation_container
+I, [2019-07-16T11:34:40.148674 #3593]  INFO -- : Aguardou a existência do elemento bottom_navigation_container
+I, [2019-07-16T11:34:41.763217 #3593]  INFO -- : Clicou no botão bottom_navigation_container
+D, [2019-07-16T11:34:42.151491 #3593] DEBUG -- : Fim do teste do cenário #<Cucumber::Core::Test::Case:0x00007ff8e39a1878>...
+D, [2019-07-16T11:34:42.681683 #3593] DEBUG -- : Fim dos Testes!

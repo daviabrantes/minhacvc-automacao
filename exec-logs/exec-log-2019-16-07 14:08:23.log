@@ -1,0 +1,20 @@
+# Logfile created on 2019-07-16 14:08:23 -0300 by logger.rb/66358
+D, [2019-07-16T14:08:32.338649 #6600] DEBUG -- : Início do teste do cenário mudar_notificações_com_sucesso...
+I, [2019-07-16T14:08:32.340481 #6600]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T14:08:33.449415 #6600]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T14:08:33.789731 #6600]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T14:08:34.096688 #6600]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-16T14:08:34.204362 #6600]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-16T14:08:34.205444 #6600]  INFO -- : Verificando se existe o elemento emailEditText
+I, [2019-07-16T14:08:34.802590 #6600]  INFO -- : Verificando se existe o elemento emailEditText
+I, [2019-07-16T14:08:35.353208 #6600]  INFO -- : Aguardou a existência do elemento emailEditText
+I, [2019-07-16T14:08:36.687496 #6600]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-07-16T14:08:36.687633 #6600]  INFO -- : Verificando se existe o elemento editTextPassword
+I, [2019-07-16T14:08:37.193294 #6600]  INFO -- : Aguardou a existência do elemento editTextPassword
+I, [2019-07-16T14:08:38.508954 #6600]  INFO -- : Preencheu o campo editTextPassword com o valor thi0927
+I, [2019-07-16T14:08:38.509049 #6600]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T14:08:38.557371 #6600]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-16T14:08:39.091350 #6600]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-16T14:08:39.092472 #6600]  INFO -- : Verificando se existe o elemento 
+D, [2019-07-16T14:08:39.447555 #6600] DEBUG -- : Fim do teste do cenário #<Cucumber::Core::Test::Case:0x00007fba3160b4c0>...
+D, [2019-07-16T14:08:40.159917 #6600] DEBUG -- : Fim dos Testes!

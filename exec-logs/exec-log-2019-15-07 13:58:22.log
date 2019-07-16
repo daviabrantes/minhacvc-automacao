@@ -1,0 +1,7 @@
+# Logfile created on 2019-07-15 13:58:22 -0300 by logger.rb/66358
+D, [2019-07-15T13:58:29.871290 #6288] DEBUG -- : Início do teste do cenário efetuar_login_com_sucesso...
+I, [2019-07-15T13:58:29.873039 #6288]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-15T13:58:31.477368 #6288]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-15T13:58:31.517391 #6288]  INFO -- : Clicou no botão buttonSignIn
+D, [2019-07-15T13:58:32.473375 #6288] DEBUG -- : Fim do teste do cenário #<Cucumber::Core::Test::Case:0x00007fd7ae3156e0>...
+D, [2019-07-15T13:58:33.064285 #6288] DEBUG -- : Fim dos Testes!

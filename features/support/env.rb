@@ -14,6 +14,7 @@ require_relative '../pageobjects/cadastro_page.rb'
 require_relative '../pageobjects/inicial_page.rb'
 require_relative '../pageobjects/home_page.rb'
 require_relative '../pageobjects/esqueci_minha_senha_page.rb'
+require_relative '../pageobjects/conta_page.rb'
 
 class AppiumWorld
 end

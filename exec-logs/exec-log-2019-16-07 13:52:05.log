@@ -1,0 +1,23 @@
+# Logfile created on 2019-07-16 13:52:05 -0300 by logger.rb/66358
+D, [2019-07-16T13:52:15.637247 #5702] DEBUG -- : Início do teste do cenário mudar_notificações_com_sucesso...
+I, [2019-07-16T13:52:15.639648 #5702]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:52:16.035734 #5702]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:52:16.282487 #5702]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:52:16.524641 #5702]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:52:16.765201 #5702]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:52:17.201617 #5702]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:52:17.478789 #5702]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:52:17.889510 #5702]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-16T13:52:18.014674 #5702]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-16T13:52:18.015640 #5702]  INFO -- : Verificando se existe o elemento emailEditText
+I, [2019-07-16T13:52:18.314244 #5702]  INFO -- : Verificando se existe o elemento emailEditText
+I, [2019-07-16T13:52:19.597451 #5702]  INFO -- : Aguardou a existência do elemento emailEditText
+I, [2019-07-16T13:52:20.954708 #5702]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-07-16T13:52:20.954853 #5702]  INFO -- : Verificando se existe o elemento editTextPassword
+I, [2019-07-16T13:52:21.473618 #5702]  INFO -- : Aguardou a existência do elemento editTextPassword
+I, [2019-07-16T13:52:22.191415 #5702]  INFO -- : Preencheu o campo editTextPassword com o valor thi0927
+I, [2019-07-16T13:52:22.191533 #5702]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:52:22.703894 #5702]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-16T13:52:22.766345 #5702]  INFO -- : Clicou no botão buttonSignIn
+D, [2019-07-16T13:58:16.788532 #5702] DEBUG -- : Fim do teste do cenário #<Cucumber::Core::Test::Case:0x00007fec633277b8>...
+D, [2019-07-16T13:58:17.210407 #5702] DEBUG -- : Fim dos Testes!

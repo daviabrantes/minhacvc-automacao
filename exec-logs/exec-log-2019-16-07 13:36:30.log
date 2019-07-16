@@ -1,0 +1,24 @@
+# Logfile created on 2019-07-16 13:36:30 -0300 by logger.rb/66358
+D, [2019-07-16T13:36:41.306234 #5048] DEBUG -- : Início do teste do cenário mudar_notificações_com_sucesso...
+I, [2019-07-16T13:36:41.310092 #5048]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:36:41.643928 #5048]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:36:41.881711 #5048]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:36:42.114036 #5048]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:36:42.361609 #5048]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:36:42.593800 #5048]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:36:42.951447 #5048]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:36:43.525660 #5048]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-16T13:36:43.648273 #5048]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-16T13:36:43.650629 #5048]  INFO -- : Verificando se existe o elemento emailEditText
+I, [2019-07-16T13:36:43.940046 #5048]  INFO -- : Verificando se existe o elemento emailEditText
+I, [2019-07-16T13:36:44.780242 #5048]  INFO -- : Aguardou a existência do elemento emailEditText
+I, [2019-07-16T13:36:46.107133 #5048]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-07-16T13:36:46.107255 #5048]  INFO -- : Verificando se existe o elemento editTextPassword
+I, [2019-07-16T13:36:46.640776 #5048]  INFO -- : Aguardou a existência do elemento editTextPassword
+I, [2019-07-16T13:36:48.013485 #5048]  INFO -- : Preencheu o campo editTextPassword com o valor thi0927
+I, [2019-07-16T13:36:48.013621 #5048]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T13:36:48.506825 #5048]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-16T13:36:48.570616 #5048]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-16T13:36:48.572786 #5048]  INFO -- : Verificando se existe o elemento 
+D, [2019-07-16T13:36:49.001720 #5048] DEBUG -- : Fim do teste do cenário #<Cucumber::Core::Test::Case:0x00007fc995a8a7f8>...
+D, [2019-07-16T13:36:49.654175 #5048] DEBUG -- : Fim dos Testes!

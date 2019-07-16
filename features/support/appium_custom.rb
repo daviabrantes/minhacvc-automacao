@@ -44,7 +44,7 @@
   end
   
   def wait_for_element_to_exist(el)
-     wait(10) { element_exists? el }
+     wait(20) { element_exists? el }
      $logger.info("Aguardou a existência do elemento #{el}")
   end
   
@@ -81,6 +81,11 @@
     return $driver.find_elements(:id, el).enabled
   end
   
+  def get_element_by_text(el, text)
+    wait_for_element_to_exist(el)
+    return $driver.find_elements(:text, el)
+  end
+
   def get_text(el)
     wait(8) { $driver.find_element(:id, el).displayed? }
     $logger.info('Está buscando o texto do elemento ' + el)
@@ -98,6 +103,7 @@
   end
   
   def fill_in(el, text)
+    wait_for_element_to_exist(el)
     element = $driver.find_element(:id, el)
     element.clear
     element.send_keys text

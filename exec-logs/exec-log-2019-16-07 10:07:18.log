@@ -1,0 +1,24 @@
+# Logfile created on 2019-07-16 10:07:18 -0300 by logger.rb/66358
+D, [2019-07-16T10:07:29.217503 #2052] DEBUG -- : Início do teste do cenário efetuar_login_com_sucesso...
+I, [2019-07-16T10:07:29.220353 #2052]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T10:07:29.700464 #2052]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T10:07:29.939355 #2052]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T10:07:30.397967 #2052]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T10:07:30.667982 #2052]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T10:07:31.077615 #2052]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-16T10:07:31.194158 #2052]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-16T10:07:31.195459 #2052]  INFO -- : Verificando se existe o elemento emailEditText
+I, [2019-07-16T10:07:31.585137 #2052]  INFO -- : Verificando se existe o elemento emailEditText
+I, [2019-07-16T10:07:32.465795 #2052]  INFO -- : Aguardou a existência do elemento emailEditText
+I, [2019-07-16T10:07:33.893755 #2052]  INFO -- : Preencheu o campo emailEditText com o valor frormm@gmail.com
+I, [2019-07-16T10:07:33.893850 #2052]  INFO -- : Verificando se existe o elemento editTextPassword
+I, [2019-07-16T10:07:34.296171 #2052]  INFO -- : Aguardou a existência do elemento editTextPassword
+I, [2019-07-16T10:07:35.605661 #2052]  INFO -- : Preencheu o campo editTextPassword com o valor thi0927
+I, [2019-07-16T10:07:35.605754 #2052]  INFO -- : Verificando se existe o elemento buttonSignIn
+I, [2019-07-16T10:07:36.120253 #2052]  INFO -- : Aguardou a existência do elemento buttonSignIn
+I, [2019-07-16T10:07:36.193179 #2052]  INFO -- : Clicou no botão buttonSignIn
+I, [2019-07-16T10:07:36.195845 #2052]  INFO -- : Verificando se existe o elemento fragmentStartTxtGreetingTitle
+I, [2019-07-16T10:07:36.471662 #2052]  INFO -- : Loguei com sucesso - usuário frormm@gmail.com
+I, [2019-07-16T10:07:41.334278 #2052]  INFO -- : Está buscando o texto do elemento fragmentStartTxtGreetingTitle
+D, [2019-07-16T10:07:41.783303 #2052] DEBUG -- : Fim do teste do cenário #<Cucumber::Core::Test::Case:0x00007fb6f589c700>...
+D, [2019-07-16T10:07:42.232682 #2052] DEBUG -- : Fim dos Testes!

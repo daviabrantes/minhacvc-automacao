@@ -9,7 +9,11 @@ include FFaker
 class HomePage
 
   def initialize
-    get_screen_mappings 'home' # carrega os elementos da tela Login
+    get_screen_mappings 'home' # carrega os elementos da tela Home
+  end
+  
+  def clicar_conta
+    click_index(@mappings['button_menu'], 3)
   end
   
   
